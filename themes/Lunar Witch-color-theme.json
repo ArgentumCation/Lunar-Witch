@@ -327,7 +327,7 @@
       "scope": "meta.tag string -source -punctuation, text source text meta.tag string -punctuation",
       "settings": {
         "fontStyle": "",
-        "foreground": "#0F0"
+        "foreground":  "#98DB95"
       }
     },
     {
