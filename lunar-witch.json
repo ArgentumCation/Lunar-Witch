@@ -1,0 +1,23 @@
+ {
+            "background": "#010206",
+            "black": "#0E1358",
+            "blue": "#334774",
+            "brightBlack": "#342F53",
+            "brightBlue": "#445F9B",
+            "brightCyan": "#5BCEFA",
+            "brightGreen": "#98DB95",
+            "brightPurple": "#F5A9B8",
+            "brightRed": "#CF5997",
+            "brightWhite": "#BFBFC0",
+            "brightYellow": "#998170",
+            "cursorColor": "#BFBFC0",
+            "cyan": "#2A97B1",
+            "foreground": "#BFBFC0",
+            "green": "#6FA47E",
+            "name": "Lunar Witch",
+            "purple": "#A95E6D",
+            "red": "#9B4271",
+            "selectionBackground": "#342F53",
+            "white": "#808082",
+            "yellow": "#847C68"
+}
