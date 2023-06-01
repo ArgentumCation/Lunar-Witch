@@ -1,0 +1,28 @@
+GIMP Palette
+Name: Lunar Witch
+Columns: 8
+#
+  1   2   6	bg-Base00
+ 30  27  48	black-Base01
+ 42  38  68	brightBlack-Base02
+ 81  84  90	Base03
+128 128 130	white-Base04
+191 191 192	brightWhite-Base05
+235 246 255	fg-Base06
+240 242 255	Base07
+245 169 184	brightRed-Base08
+244 183 102	Base09
+204 183   0	yellow-Base0A
+152 219 149	brightGreen-Base0B
+ 42 151 177	cyan-Base0C
+ 91 206 250	brightCyan-Base0D
+238  94 149	brightMagenta-Base0E
+163  74 120	magenta-Base0F
+160  69  88	red
+111 164 126	green
+ 51  71 115	blue
+255 231  10	brightYellow
+ 68  95 155	brightBlue
+243 133 166	Pink
+ 11  83 147	Accent
+ 80 120 164	Light Accent
