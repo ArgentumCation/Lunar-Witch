@@ -1,0 +1,21 @@
+{
+  "name": "lunar-witch",
+  "displayName": "Lunar Witch",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lunar Witch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lunar Witch-color-theme.json"
+      }
+    ]
+  }
+}
