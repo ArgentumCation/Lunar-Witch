@@ -43,7 +43,8 @@
     --accent-contrast: var(--text-muted);
     --mention-color: rgb(var(--magenta));
     --mention-text: rgb(var(--bright-white));
-
+    --font-code: "Liga SFMono Nerd Font", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    --font-primary: "IBM Plex Sans Condensed", "Arial Narrow", Tahoma, "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /*******************************\
 	|      User Status colors      |
 	\*******************************/
@@ -109,7 +110,7 @@
 
     /* Add Friend button, maybe others? */
     --status-positive-background: rgb(var(--green));
-    --status-positive-text: rgb(var(--text-normal));
+    --status-positive-text: white;
 
 
     --status-danger: rgb(var(--bright-red));
@@ -826,8 +827,8 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 }
 
 .content-1gYQeQ {
-    padding: 0 4px;
-    margin-left: 6px;
+    padding: 0 6px;
+    margin-left: 8px;
 }
 
 .mainContent-20q_Hp {
@@ -844,4 +845,12 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .header-3OsQeK {
     padding: 6px 12px;
+}
+
+.layout-1LjVue {
+    height: 36px;
+}
+
+.newMessagesBar-1hF-9G {
+    height: 24px;
 }
