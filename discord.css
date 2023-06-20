@@ -870,8 +870,42 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .side-1lrxIh .item-2GWPIy {
     padding: 2px 6px;
+    width: 10rem;
 }
 
 .item-2GWPIy {
     font-size: 14px;
+}
+
+.contentColumn-1C7as6 {
+    max-width: 40rem;
+}
+
+.contentColumnDefault-3eyv5o {
+    margin: auto;
+}
+
+.status-2Phn5r,
+.svg-1G_H_8 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.layout-1LjVue {
+    height: 2rem;
+    padding: 2px 0;
+}
+
+.status-2Phn5r,
+.svg-1G_H_8 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-1HDIsL {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
 }
