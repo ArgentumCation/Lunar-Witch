@@ -104,6 +104,10 @@
   --button-outline-danger-border-hover: rgb(var(--red));
   --button-outline-danger-border-active: rgb(var(--red));
   --button-danger-background-active: rgb(var(--bright-red));
+  --button-secondary-background: rgb(var(--bright-black));
+  --button-secondary-background-active: rgb(var(--black));
+  --button-secondary-background-disabled: rgb(var(--white));
+  --button-secondary-background-hover: var(--accent-color);
 
   --input-background: rgb(var(--bright-black));
   /* Controls */
@@ -884,6 +888,7 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .sidebar-nqHbhN {
   padding: 0.5rem 6px;
+  width: 10em;
 }
 
 .sidebarRegionScroller-FXiQOh {
@@ -943,4 +948,21 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 .peopleListItem-u6dGxF:hover {
   padding: 0.5rem;
   margin: 0 0.5rem;
+}
+
+.accountProfileCard-lbN7n- {
+  background-color: var(--background-primary);
+  box-shadow: 1px 1px 8px 2px rgba(var(--foreground), 0.25);
+}
+.fieldList-in8WkP {
+  background-color: var(--background-tertiary);
+  padding: 0.5em;
+}
+
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  color: var(--text-normal);
+  background-color: rgb(var(--bright-black));
+}
+userPopoutOuter-1OHwPL {
+  box-shadow: 1px 1px 8px 2px rgba(var(--foreground), 0.25);
 }
