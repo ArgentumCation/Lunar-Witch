@@ -40,7 +40,7 @@
 	\*******************************/
     --accent-color: rgb(var(--cyan));
     --accent: (var(--accent-color));
-    --accent-contrast: var(--text-muted);
+    --accent-contrast: var(--foreground);
     --mention-color: rgb(var(--magenta));
     --mention-text: rgb(var(--bright-white));
     --font-code: "Liga SFMono Nerd Font", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -64,6 +64,7 @@
 
     /* main BG colors */
     --background-primary: rgb(var(--background));
+    --background-mobile-primary: var(--background-primary);
     --background-floating: rgb(var(--background));
     --background-secondary: rgba(var(--black), 0.5);
     --background-secondary-alt: rgba(var(--black), 0.2);
@@ -79,7 +80,7 @@
     /* Text colors */
     /* main Text colors */
     --text-normal: rgb(var(--foreground));
-    --text-muted: rgb(var(--white));
+    --text-muted: rgb(var(--bright-white));
     --text-link: rgb(var(--bright-blue));
     /* channels */
     --channels-default: var(--text-normal);
@@ -91,6 +92,8 @@
     --header-secondary: var(--text-normal);
     /* Wait this is actually the stock value */
 
+
+    --input-background: rgb(var(--bright-black));
     /* Controls */
     --control-radio-dot: rgb(var(--magenta));
     /* Radio button */
@@ -934,5 +937,6 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 }
 
 .colorBrand-26tvUE {
-    color: var(--accent)
+    color: var(--accent-color);
+    font-weight: bold;
 }
