@@ -40,7 +40,7 @@
 	\*******************************/
     --accent-color: rgb(var(--cyan));
     --accent: (var(--accent-color));
-    --accent-contrast: var(--foreground);
+    --accent-contrast: rgb(var(--foreground));
     --mention-color: rgb(var(--magenta));
     --mention-text: rgb(var(--bright-white));
     --font-code: "Liga SFMono Nerd Font", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
