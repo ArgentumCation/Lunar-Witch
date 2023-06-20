@@ -64,11 +64,11 @@
 
     /* main BG colors */
     --background-primary: rgb(var(--background));
-    --background-secondary: rgb(var(--black));
-    --background-secondary-alt: var(--background-secondary);
+    --background-secondary: rgba(var(--black),0.5);
+    --background-secondary-alt: rgba(var(--black),0.2);
     --background-mobile-secondary: var(--background-secondary);
     --background-tertiary: rgb(var(--bright-black));
-    --background-accent: rgb(var(--black));
+    --background-accent: rgb(var(--background));
     --background-modifier-selected: rgb(var(--bright-black));
     /* textarea colors */
     --channeltextarea-background: rgb(var(--bright-black)bright-);
@@ -77,16 +77,16 @@
 
     /* Text colors */
     /* main Text colors */
-    --text-normal: rgb(var(--bright-white));
-    --text-muted: rgb(var(--bright-white));
+    --text-normal: rgb(var(--foreground));
+    --text-muted: rgb(var(--white));
     --text-link: rgb(var(--bright-blue));
     /* channels */
-    --channels-default: var(--text-muted);
+    --channels-default: var(--text-normal);
     --interactive-active: var(--accent-color);
-    --interactive-muted: #555;
+    --interactive-muted: var(--text-normal);
     /* headers */
     --header-primary: var(--accent-color);
-    --header-secondary: #bbb;
+    --header-secondary: var(--text-normal);
     /* Wait this is actually the stock value */
 
     /* Controls */
@@ -854,4 +854,8 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .newMessagesBar-1hF-9G {
     height: 24px;
+}}
+
+.content-yjf30S{
+	padding-left 4px;
 }
