@@ -64,8 +64,8 @@
 
     /* main BG colors */
     --background-primary: rgb(var(--background));
-    --background-secondary: rgba(var(--black),0.5);
-    --background-secondary-alt: rgba(var(--black),0.2);
+    --background-secondary: rgba(var(--black), 0.5);
+    --background-secondary-alt: rgba(var(--black), 0.2);
     --background-mobile-secondary: var(--background-secondary);
     --background-tertiary: rgb(var(--bright-black));
     --background-accent: rgb(var(--background));
@@ -111,7 +111,7 @@
 
     /* Add Friend button, maybe others? */
     --status-positive-background: rgb(var(--green));
-    --status-positive-text: white;
+    --status-positive-text: rgb(var(--foreground));
 
 
     --status-danger: rgb(var(--bright-red));
@@ -854,8 +854,24 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .newMessagesBar-1hF-9G {
     height: 24px;
-}}
+}
 
-.content-yjf30S{
-	padding-left 4px;
+.content-yjf30S {
+    padding-left: 4px;
+}
+
+.sidebar-nqHbhN {
+    padding: 0.5rem 6px;
+}
+
+.sidebarRegionScroller-FXiQOh {
+    padding: 0;
+}
+
+.side-1lrxIh .item-2GWPIy {
+    padding: 2px 6px;
+}
+
+.item-2GWPIy {
+    font-size: 14px;
 }
