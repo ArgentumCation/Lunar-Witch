@@ -64,6 +64,7 @@
 
     /* main BG colors */
     --background-primary: rgb(var(--background));
+    --background-floating: rgb(var(--background));
     --background-secondary: rgba(var(--black), 0.5);
     --background-secondary-alt: rgba(var(--black), 0.2);
     --background-mobile-secondary: var(--background-secondary);
@@ -83,7 +84,8 @@
     /* channels */
     --channels-default: var(--text-normal);
     --interactive-active: var(--accent-color);
-    --interactive-muted: var(--text-normal);
+    --interactive-active: var(var(--text-normal));
+    --interactive-muted: var(--text-muted);
     /* headers */
     --header-primary: var(--accent-color);
     --header-secondary: var(--text-normal);
@@ -803,8 +805,13 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
     height: 36px;
 }
 
+.wrapper-z5ab_q {
+    height: 3rem;
+}
+
 .peopleListItem-u6dGxF {
-    margin: 0 4px 0 4px;
+    margin: 0 0.5rem;
+    height: 3rem;
 }
 
 .title-x4dI75 {
@@ -904,8 +911,28 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
     height: 30px;
 }
 
-.avatar-1HDIsL {
-    width: 30px;
-    height: 30px;
-    margin-right: 12px;
+.text-MPIeXO {
+    font-size: 0.9em;
+}
+
+.text-3j8t_e {
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.iconContainer-21RCa3 {
+    margin-right: 0.2rem;
+}
+
+.wrapper-NhbLHG {
+    height: 1.5em;
+}
+
+.colorDefault-2_rLdz.focused-3LIdPu {
+    background-color: rgb(var(--bright-black));
+    color: rgb(var(--foreground));
+}
+
+.colorBrand-26tvUE {
+    color: var(--accent)
 }
