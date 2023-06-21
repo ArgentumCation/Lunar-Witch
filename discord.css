@@ -32,7 +32,7 @@
   --bright-cyan: 91, 206, 250;
   --bright-white: 191, 191, 192;
   --background: 1, 2, 6;
-  --foreground: 208, 208, 239;
+  --foreground: 235, 246, 255;
 
   /*******************************\
 	|        VERY IMPORTANT         |
@@ -47,10 +47,14 @@
     "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
     "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono",
     "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", Tahoma, "gg sans",
+  --font-display: "IBM Plex Sans Condensed", "Avenir Next", "Arial Narrow", Tahoma, "gg sans",
     "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-primary: "IBM Plex Sans Condensed", "Arial Narrow", Tahoma, "gg sans",
+  --font-primary: "IBM Plex Sans Condensed", "Avenir Next", "Arial Narrow", Tahoma, "gg sans",
     "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  --pfp-size: 1.5rem;
+  
+  
   /*******************************\
 	|      User Status colors      |
 	\*******************************/
@@ -548,7 +552,7 @@
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .wrapper-3kah-n:hover .childWrapper-1j_1ub {
   background-color: var(--accent-color);
-  color: var(--accent-contrast);
+  color: #F4FAFF;
 }
 
 /* Explore and Add server icons */
@@ -881,7 +885,7 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 }
 
 .newMessagesBar-1hF-9G {
-  height: 24px;
+  height: var(--pfp-size);
 }
 
 .content-yjf30S {
@@ -919,7 +923,7 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .layout-1LjVue {
   height: 2rem;
-  padding: 2px 0;
+  padding: 2px;
 }
 
 .text-MPIeXO {
@@ -927,8 +931,8 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 }
 
 .text-3j8t_e {
-  font-size: 12px;
-  line-height: 1em;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .iconContainer-21RCa3 {
@@ -976,37 +980,43 @@ userPopoutOuter-1OHwPL {
   line-height: 1em;
 }
 .name-2m3Cms {
-  font-size: 1em;
+  font-size: 0.9em;
+  /*! font-weight: bold; */
   line-height: 1.5em;
 }
 .content-66wMin,
 .name-2m3Cms {
-  font-size: 14px;
+  font-size: ;
 }
 .avatar-1HDIsL .wrapper-3Un6-K .svg-1G_H_8 {
-  width: 24px;
+  width: var(--pfp-size);
+  height: var(--pfp-size);
 }
 .avatar-2MSPKk .svg-1G_H_8 {
-  width: 24px;
+  width: var(--pfp-size);
 }
 .avatar-1HDIsL {
-  width: 24px;
+  width: var(--pfp-size);
   margin-right: 0.25em;
 }
 .avatar-1EWyVD .svg-1G_H_8 {
-  width: 24px;
+  width: var(--pfp-size);
 }
 .layout-1LjVue {
   height: 1.5em;
-  padding: 0.2em;
+  padding: 0.375em;
+  margin: 0;
 }
 .interactive-iyXY_x {
   /* background: rgba(var(--bright-black), 0.15); */
   border-radius: 8px;
-  /* padding: 2px; */
+  /*! padding: 2px; */
+  /*! align-content: center; */
+  /*! display: inline-flex; */
 }
 .container-32HW5s {
-  margin: 1px 0;
+  margin: 0;
+  padding: 0;
 }
 .wrapper-2PSQCG {
   width: 2em;
@@ -1073,13 +1083,13 @@ userPopoutOuter-1OHwPL {
   padding: 0 6px;
 }
 .wrapper-3Un6-K {
-  height: 36px !important;
-  align-content: center;
-  display: flex;
+  height: var(--pfp-size) !important;
+  /*! align-content: center; */
+  /*! display: inline-flex; */
 }
 .avatar-2MSPKk {
   margin: 0 0.5em 0 0;
-  width: 24px !important;
+  width: var(--pfp-size) !important;
 }
 .button-12Fmur {
   width: 24px;
@@ -1103,4 +1113,39 @@ userPopoutOuter-1OHwPL {
 .medium-2NClDM.iconLayout-3Bjizv {
   border-radius: 0 8px 8px 0;
   box-shadow: 0 0 3px 1px rgba(var(--bright-cyan), 0.75);
+}
+.group-spacing-16 .groupStart-3Mlgv1 {
+	margin-top: 0.5rem;
+}
+.cozyMessage-1DWF9U.groupStart-3Mlgv1 {
+	min-height: 1.5rem;
+}
+.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.children-3xh0VB {
+	display: inline-flex;
+}
+
+.avatar-2e8lTP.clickable-31pE3P {
+	pointer-events: auto;
+	height: 2.25em;
+	width: 2.25em;
+}
+
+.numberBadge-37OJ3S {
+	box-shadow: 0px 0px 8px 2px rgb(var(--red));	
+}
+
+.circleIconButton-1VxDrg {
+	cursor: pointer;
+	color: rgb(var(--green));
+	background-color: rgb(var(--background));
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    color: rgb(var(--foreground));
+    background-color: rgb(var(--green));
 }
