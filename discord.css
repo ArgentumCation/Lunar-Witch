@@ -1039,8 +1039,8 @@ userPopoutOuter-1OHwPL {
   height: 36px;
 }
 .nameTag-sc-gpq {
-  padding: 0;
-  padding-left: 2px;
+  padding: 0 0 0 6px !important;
+  margin-right: 0;
 }
 .title-338goq {
   font-size: 12px;
@@ -1059,10 +1059,13 @@ userPopoutOuter-1OHwPL {
 }
 
 .wrapper-3Un6-K.avatar-1EWyVD {
-  height: 36px !important;
+  height: 32px !important;
+  align-items: center;
+  display: flex;
 }
 .theme-dark .container-YkUktl {
   margin: -2px 0;
+  padding: 0 6px;
 }
 .wrapper-3Un6-K {
   height: 36px !important;
@@ -1070,4 +1073,12 @@ userPopoutOuter-1OHwPL {
 .avatar-2MSPKk {
   margin: 0 0.5em 0 0;
   width: 24px !important;
+}
+.button-12Fmur {
+  width: 24px;
+  height: 32px;
+}
+.container-YkUktl {
+  height: 4em;
+  font-size: 12px;
 }
