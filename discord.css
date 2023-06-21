@@ -1027,7 +1027,6 @@ userPopoutOuter-1OHwPL {
   line-height: 0.5em;
 }
 .container-YkUktl .avatar-1EWyVD {
-  cursor: pointer;
   width: 1.5em !important;
 }
 .withTagAsButton-OsgQ9L,
@@ -1036,11 +1035,10 @@ userPopoutOuter-1OHwPL {
   padding-left: 2px;
 }
 .button-12Fmur {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 36px;
 }
-.withTagAsButton-OsgQ9L .nameTag-sc-gpq,
-.withTagless-10ooWt .nameTag-sc-gpq {
+.nameTag-sc-gpq {
   padding: 0;
   padding-left: 2px;
 }
