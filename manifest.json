@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Lunar Witch",
+  "theme": {
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(52, 47, 83)",
+      "toolbar_text": "rgb(235, 246, 255)",
+      "frame": "rgb(1, 2, 6)",
+      "tab_background_text": "rgb(235, 246, 255)",
+      "toolbar_field": "rgb(14, 19, 88)",
+      "toolbar_field_text": "rgb(235, 246, 255)",
+      "tab_line": "rgb(91, 206, 250)",
+      "popup": "rgb(1, 2, 6)",
+      "popup_text": "rgb(235, 246, 255)",
+      "button_background_hover": "rgb(42, 151, 177)",
+      "icons_attention": "rgb(245, 169, 184)",
+      "icons": "rgb(91, 206, 250)",
+      "tab_loading": "rgb(91, 206, 250)"
+    }
+  }
+}
