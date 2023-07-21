@@ -16,7 +16,7 @@
 :root {
   /*******************************\
 	|            colors            |
-	\*******************************/
+	\*****************************  **/
   /*  Lunar Witch colors */
   --black: 14, 19, 88;
   --red: 155, 66, 113;
@@ -900,9 +900,13 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
   width: 10em;
 }
 .sidebar-1tnWFu {
-  width: 12em;
+  width: 8em;
 }
 
+.sidebar-1tnWFu:hover {
+  width: 12em;
+  transition: width 0.25s ease-in-out;
+}
 .sidebarRegionScroller-FXiQOh {
   padding: 0;
 }
@@ -1118,37 +1122,37 @@ userPopoutOuter-1OHwPL {
   box-shadow: 0 0 3px 1px rgba(var(--bright-cyan), 0.75);
 }
 .group-spacing-16 .groupStart-3Mlgv1 {
-	margin-top: 0.5rem;
+  margin-top: 0.5rem;
 }
 .cozyMessage-1DWF9U.groupStart-3Mlgv1 {
-	min-height: 1.5rem;
+  min-height: 1.5rem;
 }
 .compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
-	padding-top: 0;
-	padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .children-3xh0VB {
-	display: inline-flex;
+  display: inline-flex;
 }
 
 .avatar-2e8lTP.clickable-31pE3P {
-	pointer-events: auto;
-	height: 2.25em;
-	width: 2.25em;
+  pointer-events: auto;
+  height: 2.25em;
+  width: 2.25em;
 }
 
 .numberBadge-37OJ3S {
-	box-shadow: 0px 0px 8px 2px rgb(var(--red));	
+  box-shadow: 0px 0px 8px 2px rgb(var(--red));	
 }
 
 .circleIconButton-1VxDrg {
-	cursor: pointer;
-	color: rgb(var(--green));
-	background-color: rgb(var(--background));
+  cursor: pointer;
+  color: rgb(var(--green));
+  background-color: rgb(var(--background));
 }
 
 .circleIconButton-1VxDrg.selected-2r1Hvo {
-    color: rgb(var(--foreground));
-    background-color: rgb(var(--green));
+  color: rgb(var(--foreground));
+  background-color: rgb(var(--green));
 }
