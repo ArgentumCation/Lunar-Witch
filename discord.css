@@ -46,14 +46,9 @@
   --accent-contrast: rgb(var(--foreground));
   --mention-color: rgb(var(--magenta));
   --mention-text: rgb(var(--bright-white));
-  --font-code: "Liga SFMono Nerd Font", Consolas, "Andale Mono WT",
-    "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",
-    "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono",
-    "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  --font-display: "IBM Plex Sans Condensed", "Avenir Next", "Arial Narrow", Tahoma, "gg sans",
-    "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-primary: "IBM Plex Sans Condensed", "Avenir Next", "Arial Narrow", Tahoma, "gg sans",
-    "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-code: "ProggyClean Nerd Font","Liga SFMono Nerd Font", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  --font-display: "Arial Narrow", Tahoma, "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-primary: "Roboto Flex","Arial Narrow","gg sans",sans-serif;
   
   --pfp-size: 1.5rem;
   
@@ -901,11 +896,12 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 }
 .sidebar-1tnWFu {
   width: 8em;
+  transition: width 0.20s ease-in-out;
 }
 
 .sidebar-1tnWFu:hover {
   width: 12em;
-  transition: width 0.25s ease-in-out;
+  transition: width 0.20s ease-in-out;
 }
 .sidebarRegionScroller-FXiQOh {
   padding: 0;
