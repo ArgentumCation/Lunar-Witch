@@ -10,21 +10,21 @@
 		"quickInputList.focusBackground": "#010206",
 		"list.inactiveSelectionBackground": "#334774",
 		"list.hoverBackground": "#0E1358",
-		"list.highlightForeground": "#847C68",
+		"list.highlightForeground": "#E0CA00",
 		"button.background": "#342F53",
 		"editor.background": "#010206",
 		"editor.foreground": "#BFBFC0",
 		"editor.selectionBackground": "#80808280",
 		"minimap.selectionHighlight": "#80808280",
-		"editor.selectionHighlightBackground": "##847C6880",
+		"editor.selectionHighlightBackground": "##E0CA0080",
 		"editor.lineHighlightBackground": "#342F53",
 		"editorLineNumber.activeForeground": "#808082",
 		"editor.wordHighlightBackground": "#80808280",
 		"editor.wordHighlightStrongBackground": "#33477480",
 		"editorCursor.foreground": "#BFBFC0",
-		"editorWhitespace.foreground": "#998170",
-		"editorIndentGuide.background": "#998170",
-		"editorIndentGuide.activeBackground": "#847C68",
+		"editorWhitespace.foreground": "#F4B766",
+		"editorIndentGuide.background": "#F4B766",
+		"editorIndentGuide.activeBackground": "#E0CA00",
 		"editor.findRangeHighlightBackground": "#BFBFC040",
 		"editorGroupHeader.tabsBackground": "#010206",
 		"tab.inactiveBackground": "#342F53",
@@ -51,9 +51,9 @@
 		"inputOption.activeBorder": "#2A97B1",
 		"focusBorder": "#2A97B1",
 		"terminal.ansiBlack": "#0E1358",
-		"terminal.ansiRed": "#9B4271", // the bright color with ~75% transparent on the background
+		"terminal.ansiRed": "#9B4271", 
 		"terminal.ansiGreen": "#6FA47E",
-		"terminal.ansiYellow": "#847C68",
+		"terminal.ansiYellow": "#E0CA00",
 		"terminal.ansiBlue": "#334774",
 		"terminal.ansiMagenta": "#A95E6D",
 		"terminal.ansiCyan": "#2A97B1",
@@ -61,8 +61,8 @@
 		"terminal.ansiBrightBlack": "#342F53",
 		"terminal.ansiBrightRed": "#CF5997",
 		"terminal.ansiBrightGreen": "#98DB95",
-		"terminal.ansiBrightYellow": "#998170", // hue shifted #98DB95
-		"terminal.ansiBrightBlue": "#627cb5", // hue shifted #F5A9B8
+		"terminal.ansiBrightYellow": "#F4B766", 
+		"terminal.ansiBrightBlue": "#627cb5", 
 		"terminal.ansiBrightMagenta": "#F5A9B8",
 		"terminal.ansiBrightCyan": "#5BCEFA",
 		"terminal.ansiBrightWhite": "#BFBFC0",
@@ -108,7 +108,7 @@
 			"scope": "string source",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -289,7 +289,7 @@
 			"scope": "meta.tag",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -329,7 +329,7 @@
 			"scope": "entity.other.attribute-name, meta.tag punctuation.definition.string",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -345,7 +345,7 @@
 			"scope": "punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -409,7 +409,7 @@
 				"punctuation.section.embedded.coffee"
 			],
 			"settings": {
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -426,7 +426,7 @@
 			"scope": "meta.function-call.object.php",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -448,7 +448,7 @@
 			"scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -464,7 +464,7 @@
 			"scope": "variable.language.ruby",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -472,7 +472,7 @@
 			"scope": "keyword.other.special-method.ruby",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#998170"
+				"foreground": "#F4B766"
 			}
 		},
 		{
@@ -482,7 +482,7 @@
 				"punctuation.section.embedded.end.ruby"
 			],
 			"settings": {
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -490,7 +490,7 @@
 			"scope": "keyword.other.DML.sql",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 			"name": "Markup Headings",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -565,7 +565,7 @@
 			"scope": "markup.heading.setext",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#847C68"
+				"foreground": "#E0CA00"
 			}
 		},
 		{
@@ -642,7 +642,7 @@
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#998170"
+				"foreground": "#F4B766"
 			}
 		},
 		{
