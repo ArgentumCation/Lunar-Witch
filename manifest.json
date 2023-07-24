@@ -1,11 +1,13 @@
-/* Copyright (C) 2023 ArgentumCation (Mira Velturu).
-*  Licensed under the EUPL-1.2 or later
-*/
 {
   "manifest_version": 2,
   "version": "1.0",
   "name": "Lunar Witch",
   "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
+      ]
+    },
     "properties": {
       "additional_backgrounds_alignment": [
         "top"
@@ -25,7 +27,7 @@
       "popup": "rgb(1, 2, 6)",
       "popup_text": "rgb(235, 246, 255)",
       "button_background_hover": "rgb(42, 151, 177)",
-      "icons_attention": "rgb(245, 169, 184)",
+      "icons_attention": "rgb(255, 77, 145)",
       "icons": "rgb(91, 206, 250)",
       "tab_loading": "rgb(91, 206, 250)"
     }
