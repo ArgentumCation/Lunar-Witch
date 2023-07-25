@@ -2,21 +2,21 @@ GIMP Palette
 Name: Lunar Witch
 Columns: 9
 #
-  1   2   6	Untitled
- 14  19  88	Untitled
-155  66 113	Untitled
-111 164 126	Untitled
-224 202   0	Untitled
- 51  71 116	Untitled
-169  94 109	Untitled
- 42 151 177	Untitled
-128 128 130	Untitled
-235 246 255	Untitled
- 52  47  83	Untitled
-255  77 145	Untitled
-152 219 149	Untitled
-244 183 102	Untitled
- 68  95 155	Untitled
-245 169 184	Untitled
- 91 206 250	Untitled
-189 189 190	Untitled
+  1   2   6	bg
+ 14  19  88	black
+155  66 113	red
+111 164 126	green
+224 202   0	yellow
+ 51  71 116	blue
+169  94 109	magenta
+ 42 151 177	cyan
+128 128 130	white
+235 246 255	fg
+ 52  47  83	brightBlack
+255  77 145	brightRed
+152 219 149	brightGreen
+244 183 102	brightYellow
+ 68  95 155	brightBlue
+245 169 184	brightMagenta
+ 91 206 250	brightCyan
+189 189 190	brightWhite
