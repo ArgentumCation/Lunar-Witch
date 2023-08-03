@@ -40,7 +40,7 @@
   --font-display: \"Roboto Flex\", \"Arial Narrow\", Tahoma, \"gg sans\", \"Noto Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;
   --font-primary: \"Roboto Flex\",\"Arial Narrow\",\"gg sans\",sans-serif;
   
-  --pfp-size: 1.5rem;
+  --pfp-size: 2rem;
   
   
   /*******************************\\
@@ -212,12 +212,28 @@ https:// discord.com/channels/538759280057122817/755005803303403570/804665923801
   width: var(--pfp-size);
 }
 .avatar-1HDIsL .wrapper-3Un6-K .svg-1G_H_8 {
-  width: var(--pfp-size);
-  height: var(--pfp-size);
+  /*! width: 1.5rem; */
+  /*! max-height: var(--pfp-size); */
+  /*! min-width: var(--pfp-size); */
+  /*! min-height: var(--pfp-size); */
+  /*! display: flex; */
+  /*! place-content: end; */
+  /*! width: calc(var(--pfp-size) * 1.0); */
+  scale: calc(75%);
+  /*! margin-right: 0.25rem; */
 }
 .avatar-1HDIsL {
-  width: var(--pfp-size);
-  margin-right: 0.25em;
+  /*! max-width: var(--pfp-size); */
+  margin-right: 0.5em;
+  /*! min-height: var(--pfp-size); */
+  /*! padding: 0; */
+  /*! min-width: var(--pfp-size); */
+  /*! display: flex; */
+  align-items: center;
+  /*! max-height: var(--pfp-size); */
+  /*! height: 125%; */
+  /*! width: 75%; */
+  /*! height: 75%; */
 }
 .avatar-2MSPKk .svg-1G_H_8 {
   width: var(--pfp-size);
@@ -613,8 +629,8 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .layout-1LjVue {
   height: 1.5em;
-  margin: 0;
-  padding: 0.375em;
+  margin-left: -2px;
+  margin: 0 0 0 -0.1em;
 }
 .layout-1LjVue {
   height: 2rem;
@@ -623,6 +639,7 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 
 .layout-1LjVue {
   height: 36px;
+  place-items: center;
 }
 
 .listItem-3SmSlK {
@@ -1087,10 +1104,18 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
   background-color: var(--channeltextarea-background);
 }
 
-.wrapper-3Un6-K {
-  height: var(--pfp-size) !important;
+.avatar-1HDIsL .wrapper-3Un6-K {
+  /*! height: var(--pfp-size) !important; */
   /*! align-content: center; */
   /*! display: inline-flex; */
+  /*! width: var(--pfp-size ) !important; */
+  display: flex;
+  place-items: center;
+  /*! left: 18px; */
+  /*! top: 72px; */
+  /*! position: absolute; */
+  width: var(--pfp-size);
+  /*! height: 75%; */
 }
 .wrapper-3Un6-K.avatar-1EWyVD {
   height: 32px !important;
@@ -1168,5 +1193,46 @@ https://discord.com/channels/538759280057122817/755005803303403570/7976552641991
 /* Fix the status picker popup not using the variables (discord pls fix) */
 #status-picker-online .status-2DiCMd {
   background-color: var(--rs-online-color) !important;
+}
+
+.expandedFolderBackground-1kSAf6 {
+ position:absolute;
+ top:0;
+ left:0.5em;
+ bottom:8px;
+ width:3.5em;
+ border-radius:16px;
+ -webkit-transition:background-color .15s ease-out;
+ transition:background-color .15s ease-out;
+ background-color:var(--background-secondary)
+}
+
+.wrapper-38slSD ul {
+	display: flex;
+	flex-direction: column;
+	place-content: space-evenly;
+}
+
+.privateChannelsHeaderContainer-1UWASm {
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex;
+ padding:18px 8px 4px 0.5em;
+ height:40px
+}
+
+.userProfileInnerThemedNonPremium-2AJg-H {
+ background:rgb(var(--black));
+}
+
+#channels {
+  padding-right: 0;
+}
+.children-1MGS9G {
+  display: none
+}
+
+.children-1MGS9G:hover {
+  display: block;
 }
 
