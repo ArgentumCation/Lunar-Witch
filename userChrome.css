@@ -26,7 +26,8 @@
     }
 
     #nav-bar {
-        padding-left: 80px;
+        padding-right: 120px;
+        padding-left: 0;
     }
 
     .identity-color-blue {
