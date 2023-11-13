@@ -3,29 +3,29 @@ local M = {}
 M.base_30 = {
   black = "#010206",-- theme bg
   darker_black = "#000000",
-  black2 = "#2a2644", -- base02
+  black2 = "#2A2644", -- base02
 
-  one_bg = "#1e1b30", -- base01
-  one_bg2 = "#2a2644", -- base02
-  one_bg3 = "#342f5e", -- base03
+  one_bg = "#1E1B30", -- base01
+  one_bg2 = "#2A2644", -- base02
+  one_bg3 = "#51545A", -- base03
 
-  light_grey = "#342F53", -- ansi bright-black
-  grey_fg = "#2f3b68", -- lighter accent, used for comments
-  grey_fg2 = "#24477d", -- light accent
-  grey = "#0b5393", -- accent, used for line numbers
+  light_grey = "#BFBFC0", -- base05
+  grey_fg = "#51545A", -- base04, used for comments
+  grey = "#5078A4", -- accent
+  grey_fg2 = "#0B5393", -- light accent, used for line numbers
 
-  line = "#342F53", -- ansi-bright-black
+  line = "#2A2644", -- base02
 
-  baby_pink = "#CF8796", -- pink
-  nord_blue = "#0b5393", -- accent
+  baby_pink = "#F385A6", -- pink
+  nord_blue = "#0B5393", -- accent
   orange = "#F4B766",
 
-  statusline_bg = "#050a1f", -- light-bg
-  lightbg = "#0a1540", -- lighter bg
-  lightbg2 = "#0a1540", -- lighter bg
+  statusline_bg = "#1E1B30", -- base01
+  lightbg = "#2a2644", -- base02
+  lightbg2 = "#2a2644", -- base02
 
-  folder_bg = "#445F9B", -- same as blue
-  pmenu_bg = "#445F9B", -- same as blue
+  folder_bg = "#445F9B", -- ansi-blue
+  pmenu_bg = "#445F9B", -- ansi-blue
 
   red = "#A04558",
   green = "#6FA47E",
@@ -46,21 +46,21 @@ M.base_30 = {
 
 M.base_16 = {
   base00 = "#010206",-- Default bg
-  base01 = "#1e1b30",-- Lighter bg (status bar, line number, folding mks)
-  base02 = "#2a2644",-- Selection bg,
-  base03 = "#342f53",-- Comments, invisibles, line hl, ansi-bright-black
+  base01 = "#1E1B30",-- Lighter bg (status bar, line number, folding mks)
+  base02 = "#2A2644",-- Selection bg,
+  base03 = "#51545A",-- Comments, invisibles, line hl, ansi-bright-black
   base04 = "#808082",-- Dark fg (status bars), ansi-white
   base05 = "#BFBFC0",-- Default fg (caret, delimiters, Operators), ansi-bright-white
-  base06 = "#ebf6ff",-- Light fg (not often used), fg
-  base07 = "#f0f2ff",-- Light bg (not often used)
+  base06 = "#EBF6FF",-- Light fg (not often used), fg
+  base07 = "#F0F2FF",-- Light bg (not often used)
   base08 = "#F5A9B8",-- Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted, ansi-bright-red
-  base09 = "#f4b766",-- Integers, Boolean, Constants, XML Attributes, Markup Link Url, orange
-  base0A = "#e0ca00",-- Classes, Markup Bold, Search Text Background, ansi-yellow
+  base09 = "#F4B766",-- Integers, Boolean, Constants, XML Attributes, Markup Link Url, orange
+  base0A = "#E0CA00",-- Classes, Markup Bold, Search Text Background, ansi-yellow
   base0B = "#98DB95",-- Strings, Inherited Class, Markup Code, Diff Inserted, ansi-green
   base0C = "#2A97B1",-- Support, regex, escape chars, ansi-cyan
   base0D = "#5BCEFA",-- Function, methods, headings, ansi-bright-cyan
-  base0E = "#ee5e95",-- Keywords, ansi-bright-magenta
-  base0F = "#a34a78",-- Deprecated, open/close embedded tags, ansi-magenta
+  base0E = "#EE5E95",-- Keywords, ansi-bright-magenta
+  base0F = "#A34A78",-- Deprecated, open/close embedded tags, ansi-magenta
 }
 M.type = "dark"
 
