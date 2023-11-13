@@ -7,11 +7,37 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="lunar_witch_2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="1.3416246"
+     inkscape:cx="310.8172"
+     inkscape:cy="455.41801"
+     inkscape:window-width="1438"
+     inkscape:window-height="1735"
+     inkscape:window-x="1436"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1" />
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1">
     <rect
        style="font-variation-settings:'wght' 400;fill:#010206;fill-opacity:1;stroke:none;stroke-width:0.481164;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
@@ -26,10 +52,12 @@
        x="12.450427"
        y="27.954145"
        id="text4"><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="12.450427"
          y="27.954145"
          id="tspan5">Base00</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="12.450427"
          y="33.245808"
@@ -47,10 +75,12 @@
        x="65.254959"
        y="139.66388"
        id="text4-75"><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="65.254959"
          y="139.66388"
          id="tspan5-8">BG</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="65.254959"
          y="144.95554"
@@ -68,14 +98,17 @@
        x="38.897141"
        y="165.06613"
        id="text4-75-5-5"><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="38.897141"
          y="165.06613"
          id="tspan126-9">Light</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="38.897141"
          y="170.35779"
          id="tspan139">Accent</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="38.897141"
          y="175.64946"
@@ -93,14 +126,17 @@
        x="65.254959"
        y="165.06613"
        id="text4-75-5-5-1"><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="65.254959"
          y="165.06613"
          id="tspan126-9-2">Lighter</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="65.254959"
          y="170.35779"
          id="tspan137">Accent</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="65.254959"
          y="175.64946"
@@ -118,14 +154,17 @@
        x="91.610649"
        y="165.06613"
        id="text4-75-5-5-1-5"><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="91.610649"
          y="165.06613"
          id="tspan126-9-2-0">Light</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="91.610649"
          y="170.35779"
          id="tspan141">Black</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="91.610649"
          y="175.64946"
@@ -143,14 +182,17 @@
        x="118.11452"
        y="165.06612"
        id="text4-75-5-5-1-5-4"><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="118.11452"
          y="165.06612"
          id="tspan126-9-2-0-8">Lighter</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="118.11452"
          y="170.35777"
          id="tspan143">Black</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
          x="118.11452"
          y="175.64944"
@@ -172,10 +214,12 @@
          x="12.481118"
          y="27.954145"
          id="text4-7"><tspan
+           sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
            x="12.481118"
            y="27.954145"
            id="tspan121">Accent</tspan><tspan
+           sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1"
            x="12.481118"
            y="33.245808"
@@ -198,10 +242,12 @@
          x="12.450427"
          y="27.954145"
          id="text4-7-5"><tspan
+           sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Monaspace Krypton Var';-inkscape-font-specification:'Monaspace Krypton Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1"
            x="12.450427"
            y="27.954145"
            id="tspan120-2">Orange</tspan><tspan
+           sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:'Monaspace Krypton Var';-inkscape-font-specification:'Monaspace Krypton Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1"
            x="12.450427"
            y="33.245808"
@@ -220,10 +266,12 @@
        x="38.872799"
        y="27.954145"
        id="text8"><tspan
+         sodipodi:role="line"
          id="tspan8"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="38.872799"
          y="27.954145">Base01</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="38.872799"
          y="33.019947"
@@ -244,10 +292,12 @@
          x="65.285652"
          y="27.954145"
          id="text9"><tspan
+           sodipodi:role="line"
            id="tspan9"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
            x="65.285652"
            y="27.954145">Base03</tspan><tspan
+           sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
            x="65.285652"
            y="33.019947"
@@ -266,10 +316,12 @@
        x="65.254028"
        y="28.03549"
        id="text10"><tspan
+         sodipodi:role="line"
          id="tspan10"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="65.254028"
          y="28.03549">Base02</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="65.254028"
          y="33.101292"
@@ -287,10 +339,12 @@
        x="118.09335"
        y="27.979546"
        id="text11"><tspan
+         sodipodi:role="line"
          id="tspan11"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.09335"
          y="27.979546">Base04</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.09335"
          y="33.27121"
@@ -308,10 +362,12 @@
        x="144.46069"
        y="27.954145"
        id="text12"><tspan
+         sodipodi:role="line"
          id="tspan12"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.46069"
          y="27.954145">Base05</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.46069"
          y="33.245808"
@@ -329,10 +385,12 @@
        x="170.90846"
        y="27.954145"
        id="text13"><tspan
+         sodipodi:role="line"
          id="tspan13"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.90846"
          y="27.954145">Base06</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.90846"
          y="33.245808"
@@ -350,10 +408,12 @@
        x="197.31073"
        y="27.954145"
        id="text14"><tspan
+         sodipodi:role="line"
          id="tspan14"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.31073"
          y="27.954145">Base07</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.31073"
          y="33.245808"
@@ -371,10 +431,12 @@
        x="91.710999"
        y="139.66388"
        id="text14-7"><tspan
+         sodipodi:role="line"
          id="tspan14-6"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="91.710999"
          y="139.66388">FG</tspan><tspan
+         sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="91.710999"
          y="144.72968"
@@ -392,10 +454,12 @@
        x="12.470535"
        y="55.88158"
        id="text15"><tspan
+         sodipodi:role="line"
          id="tspan15"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.470535"
          y="55.88158">Base08</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.470535"
          y="61.173241"
@@ -413,10 +477,12 @@
        x="38.852692"
        y="55.882637"
        id="text16"><tspan
+         sodipodi:role="line"
          id="tspan16"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="38.852692"
          y="55.882637">Base09</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="38.852692"
          y="61.174301"
@@ -434,10 +500,12 @@
        x="65.253899"
        y="55.88158"
        id="text17"><tspan
+         sodipodi:role="line"
          id="tspan17"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.253899"
          y="55.88158">Base0A</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.253899"
          y="61.173241"
@@ -455,10 +523,12 @@
        x="91.700607"
        y="55.88158"
        id="text18"><tspan
+         sodipodi:role="line"
          id="tspan18"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.700607"
          y="55.88158">Base0B</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.700607"
          y="61.173241"
@@ -476,10 +546,12 @@
        x="118.0743"
        y="55.88158"
        id="text19"><tspan
+         sodipodi:role="line"
          id="tspan19"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.0743"
          y="55.88158">Base0C</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.0743"
          y="61.173241"
@@ -497,10 +569,12 @@
        x="144.53583"
        y="55.88158"
        id="text20"><tspan
+         sodipodi:role="line"
          id="tspan20"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.53583"
          y="55.88158">Base0D</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.53583"
          y="61.173241"
@@ -518,10 +592,12 @@
        x="170.90741"
        y="55.88158"
        id="text21"><tspan
+         sodipodi:role="line"
          id="tspan21"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.90741"
          y="55.88158">Base0E</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.90741"
          y="61.173241"
@@ -539,10 +615,12 @@
        x="197.28639"
        y="55.88158"
        id="text22"><tspan
+         sodipodi:role="line"
          id="tspan22"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.28639"
          y="55.88158">Base0F</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.28639"
          y="61.173241"
@@ -560,20 +638,23 @@
        x="12.41656"
        y="81.164238"
        id="text23"><tspan
+         sodipodi:role="line"
          id="tspan23"
          style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variation-settings:'wght' 400;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.41656"
          y="81.164238">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variation-settings:'wght' 400;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.41656"
          y="86.455902"
          id="tspan25">Black</tspan><tspan
+         sodipodi:role="line"
          style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variation-settings:'wght' 400;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.41656"
          y="91.747559"
          id="tspan63">#212768</tspan></text>
     <rect
-       style="font-variation-settings:'wght' 400;fill:#a95e6d;fill-opacity:1;stroke:none;stroke-width:0.481164;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="font-variation-settings:'wght' 400;fill:#a04558;fill-opacity:1;stroke:none;stroke-width:0.481164;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1-9-8-3"
        width="22.433514"
        height="24.092543"
@@ -581,22 +662,25 @@
        y="73.075073" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        x="38.915134"
        y="81.164238"
        id="text24"><tspan
+         sodipodi:role="line"
          id="tspan24"
-         style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="38.915134"
          y="81.164238">ANSI</tspan><tspan
-         style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="38.915134"
-         y="86.455902"
+         y="86.230042"
          id="tspan26">Red</tspan><tspan
-         style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05264px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1"
          x="38.915134"
-         y="91.747559"
-         id="tspan64">#a95e6d</tspan></text>
+         y="91.295837"
+         id="tspan64">#a04558</tspan></text>
     <rect
        style="font-variation-settings:'wght' 400;fill:#6fa47e;fill-opacity:1;stroke:none;stroke-width:0.481164;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect1-8-7-6"
@@ -610,14 +694,17 @@
        x="65.306816"
        y="81.164238"
        id="text27"><tspan
+         sodipodi:role="line"
          id="tspan27"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.306816"
          y="81.164238">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.306816"
          y="86.455902"
          id="tspan28">Green</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.306816"
          y="91.747559"
@@ -635,14 +722,17 @@
        x="91.656158"
        y="81.164238"
        id="text29"><tspan
+         sodipodi:role="line"
          id="tspan29"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.656158"
          y="81.164238">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.656158"
          y="86.455902"
          id="tspan30">Yellow</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.656158"
          y="91.747559"
@@ -660,14 +750,17 @@
        x="118.09018"
        y="81.164238"
        id="text31"><tspan
+         sodipodi:role="line"
          id="tspan31"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.09018"
          y="81.164238">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.09018"
          y="86.455902"
          id="tspan32">Blue</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.09018"
          y="91.747559"
@@ -688,14 +781,17 @@
          id="tspan33"
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.48186"
-         y="81.164238">ANSI</tspan><tspan
+         y="81.164238"
+         sodipodi:role="line">ANSI</tspan><tspan
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.48186"
          y="86.455902"
-         id="tspan34">Magenta</tspan><tspan
+         id="tspan34"
+         sodipodi:role="line">Magenta</tspan><tspan
          style="font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.48186"
          y="91.747559"
+         sodipodi:role="line"
          id="tspan68">#a34a78</tspan></text>
     <rect
        style="font-variation-settings:'wght' 400;fill:#2a97b1;fill-opacity:1;stroke:none;stroke-width:0.481164;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
@@ -710,14 +806,17 @@
        x="170.87883"
        y="81.164238"
        id="text35"><tspan
+         sodipodi:role="line"
          id="tspan35"
          style="font-variation-settings:'wght' 400;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.87883"
          y="81.164238">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.87883"
          y="86.455902"
          id="tspan36">Cyan</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.87883"
          y="91.747559"
@@ -735,14 +834,17 @@
        x="197.30014"
        y="81.164238"
        id="text37"><tspan
+         sodipodi:role="line"
          id="tspan37"
          style="font-variation-settings:'wght' 400;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.30014"
          y="81.164238">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.30014"
          y="86.455902"
          id="tspan38">White</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.30014"
          y="91.747559"
@@ -760,18 +862,22 @@
        x="12.481118"
        y="106.44584"
        id="text39"><tspan
+         sodipodi:role="line"
          id="tspan39"
          style="font-variation-settings:'wght' 400;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.481118"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.481118"
          y="111.7375"
          id="tspan40">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.481118"
          y="117.02916"
          id="tspan41">Black</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#ffffff;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.481118"
          y="122.32082"
@@ -789,18 +895,22 @@
        x="38.872799"
        y="106.44584"
        id="text42"><tspan
+         sodipodi:role="line"
          id="tspan42"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="38.872799"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="38.872799"
          y="111.7375"
          id="tspan43">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="38.872799"
          y="117.02916"
          id="tspan44">Red</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="38.872799"
          y="122.32082"
@@ -818,18 +928,22 @@
        x="65.298347"
        y="106.44584"
        id="text45"><tspan
+         sodipodi:role="line"
          id="tspan45"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.298347"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.298347"
          y="111.7375"
          id="tspan46">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.298347"
          y="117.02916"
          id="tspan47">Green</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="65.298347"
          y="122.32082"
@@ -847,18 +961,22 @@
        x="91.71225"
        y="106.44584"
        id="text48"><tspan
+         sodipodi:role="line"
          id="tspan48"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.71225"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.71225"
          y="111.7375"
          id="tspan49">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.71225"
          y="117.02916"
          id="tspan50">Yellow</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="91.71225"
          y="122.32082"
@@ -876,18 +994,22 @@
        x="118.0997"
        y="106.44584"
        id="text51"><tspan
+         sodipodi:role="line"
          id="tspan51"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.0997"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.0997"
          y="111.7375"
          id="tspan52">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.0997"
          y="117.02916"
          id="tspan53">Blue</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="118.0997"
          y="122.32082"
@@ -905,18 +1027,22 @@
        x="144.50514"
        y="106.44584"
        id="text54"><tspan
+         sodipodi:role="line"
          id="tspan54"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.50514"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.50514"
          y="111.7375"
          id="tspan55">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.50514"
          y="117.02916"
          id="tspan56">Magenta</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="144.50514"
          y="122.32082"
@@ -934,10 +1060,12 @@
        x="12.450425"
        y="139.78452"
        id="text54-4"><tspan
+         sodipodi:role="line"
          style="fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variation-settings:'wght' 400;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.450425"
          y="139.78452"
          id="tspan124">Pink</tspan><tspan
+         sodipodi:role="line"
          style="fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variation-settings:'wght' 400;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="12.450425"
          y="145.07617"
@@ -955,18 +1083,22 @@
        x="170.91905"
        y="106.44584"
        id="text57"><tspan
+         sodipodi:role="line"
          id="tspan57"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.91905"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.91905"
          y="111.7375"
          id="tspan58">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.91905"
          y="117.02916"
          id="tspan59">Cyan</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="170.91905"
          y="122.32082"
@@ -983,19 +1115,26 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.05263942px;font-family:'Monaspace Neon Var';-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;text-anchor:middle;fill:#010101;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        x="197.26523"
        y="106.44584"
-       id="text60"><tspan
+       id="text60"
+       inkscape:export-filename="lunar_witch_2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
          id="tspan60"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.26523"
          y="106.44584">ANSI</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.26523"
          y="111.7375"
          id="tspan61">Bright</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.26523"
          y="117.02916"
          id="tspan62">White</tspan><tspan
+         sodipodi:role="line"
          style="font-variation-settings:'wght' 400;fill:#010101;fill-opacity:1;stroke-width:1;-inkscape-font-specification:'Monaspace Neon Var, @wght=400';font-family:'Monaspace Neon Var';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:4.05263942px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="197.26523"
          y="122.32082"
