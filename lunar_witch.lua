@@ -23,23 +23,23 @@ M.base_30 = {
   statusline_bg = "#050a1f", -- light-bg
   lightbg = "#0a1540", -- lighter bg
   lightbg2 = "#0a1540", -- lighter bg
-  
+
   folder_bg = "#445F9B", -- same as blue
   pmenu_bg = "#445F9B", -- same as blue
 
-  red = "#A95E6D",
+  red = "#A04558",
   green = "#6FA47E",
   yellow = "#E0CA00",
   dark_purple = "#9B4271", --ansi-magenta
   teal = "#2A97B1", -- ansi-cyan
-  
+
   pink = "#F5A9B8", --ansi-bright-red
   vibrant_green = "#98DB95", --ansi-bright-green
   sun = "#ffe70a", -- ansi-bright-yellow
   blue = "#445F9B", --ansi-bright-blue
   purple = "#ee5e95", --ansi-bright-magenta
   cyan = "#5BCEFA", --ansi-bright-cyan
-  
+
   white = "#ebf6ff", -- actually fg
 
 }
@@ -63,7 +63,5 @@ M.base_16 = {
   base0F = "#a34a78",-- Deprecated, open/close embedded tags, ansi-magenta
 }
 M.type = "dark"
-
--- M = require("base46").override_theme(M, "solarized_dark")
 
 return M
