@@ -3,33 +3,27 @@
   "version": "1.0",
   "name": "Lunar Witch",
   "theme": {
-    "images": {
-      "additional_backgrounds": [
-        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
-      ]
-    },
-    "properties": {
-      "additional_backgrounds_alignment": [
-        "top"
-      ],
-      "additional_backgrounds_tiling": [
-        "repeat"
-      ]
-    },
+    "images": {},
+    "properties": {},
     "colors": {
-      "toolbar": "rgb(52, 47, 83)",
+      "toolbar": "rgb(30, 27, 48)",
       "toolbar_text": "rgb(235, 246, 255)",
-      "frame": "rgb(1, 2, 6)",
-      "tab_background_text": "rgb(235, 246, 255)",
-      "toolbar_field": "rgb(14, 19, 88)",
+      "frame": "rgb(42, 38, 68)",
+      "tab_background_text": "rgb(191, 191, 192)",
+      "toolbar_field": "rgb(42, 38, 68)",
       "toolbar_field_text": "rgb(235, 246, 255)",
-      "tab_line": "rgb(91, 206, 250)",
-      "popup": "rgb(1, 2, 6)",
+      "tab_line": "rgb(80, 120, 164)",
+      "popup": "rgb(42, 38, 68)",
       "popup_text": "rgb(235, 246, 255)",
-      "button_background_hover": "rgb(42, 151, 177)",
-      "icons_attention": "rgb(255, 77, 145)",
-      "icons": "rgb(91, 206, 250)",
-      "tab_loading": "rgb(91, 206, 250)"
+      "button_background_active": "rgb(11, 83, 146)",
+      "button_background_hover": "rgb(30, 27, 48)",
+      "frame_inactive": "rgb(30, 27, 48)",
+      "icons_attention": "rgb(80, 120, 164)",
+      "icons": "rgb(80, 120, 164)",
+      "ntp_background": "rgb(1, 2, 6)",
+      "ntp_text": "rgb(235, 246, 255)",
+      "sidebar_text": "rgb(235, 242, 255)",
+      "tab_loading": "rgb(80, 120, 164)"
     }
   }
 }
