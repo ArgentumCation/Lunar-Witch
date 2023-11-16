@@ -14,7 +14,7 @@ client.background       $bg
 font pango:Atkinson Hyperlegible bold 9
 
 bar {
-  status_command i3blocks -c /home/mira/.config/sway/i3blocks.conf
+  status_command i3blocks -c ~/.config/sway/i3blocks.conf
     font pango:Monaspace Neon, CommitMono Nerd Font, FontAwesome 9
 #mode hide
     colors {
