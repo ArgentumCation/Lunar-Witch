@@ -1,297 +1,379 @@
-/* Copyright (C) 2023 ArgentumCation (Mira Velturu).
-*  Licensed under the EUPL-1.2 or later
-*/
-/* Modified from https://github.com/yellowsink/Diskai */
-
-:root {
-  /*******************************\\
+/*
+ *  Copyright (C) 2023 ArgentumCation.
+ *  Licensed under the EUPL-1.2 or later
+ */
+    :root {
+        /*******************************\\
 	|            colors            |
 	\\*****************************  **/
-  /*  Lunar Witch colors */
-  --background: 1, 2, 6;
-  --black: 14, 19, 88 !important;
-  --white: 128, 128, 130;
-  --red: 155, 66, 113;
-  --green: 111, 164, 126;
-  --yellow: 224, 202, 0;
-  --blue: 51, 71, 116;
-  --magenta: 169, 94, 109;
-  --cyan: 42, 151, 177;
-  --bright-black: 52, 47, 83;
-  --bright-red: 255, 77, 145;
-  --bright-green: 152, 216, 149;
-  --bright-yellow: 244, 183, 102;
-  --bright-blue: 68, 95, 155;
-  --bright-magenta: 245, 169, 184;
-  --bright-cyan: 91, 206, 250;
-  --bright-white: 191, 191, 192;
-  --foreground: 235, 246, 255;
+        /*  Lunar Witch colors */
+        --background: 1, 2, 6 !important; /* base00 */
+        --black: 30, 27, 48 !important; /* base01*/
+        --white: 128, 128, 130;
+        --red: 160, 69, 88;
+        --green: 111, 164, 126;
+        --yellow: 204, 183, 0;
+        --blue: 51, 71, 116;
+        --magenta: 169, 94, 109;
+        --cyan: 42, 151, 177;
+        --bright-black: 42, 38, 68;
+        --bright-red: 255, 77, 145;
+        --bright-green: 152, 216, 149;
+        --bright-yellow: 244, 183, 102;
+        --bright-blue: 68, 95, 155;
+        --bright-magenta: 245, 169, 184;
+        --bright-cyan: 91, 206, 250;
+        --bright-white: 191, 191, 192;
+        --foreground: 235, 246, 255;
 
-  /*******************************\\
+        /*******************************\\
 	|        VERY IMPORTANT         |
 	|    CUSTOMISATION VARIABLES    |
 	\\*******************************/
-  --accent-color: rgb(var(--cyan));
-  --accent: (var(--accent-color));
-  --accent-contrast: rgb(var(--foreground));
-  --mention-color: rgb(var(--magenta));
-  --mention-text: rgb(var(--bright-white));
-  --font-code: "CommitMono Nerd Font", monospace;
-  --font-display: "Comic Neue", "gg sans", sans-serif;
-  --font-primary: "Atkinson Hyperlegible","gg sans",sans-serif;
-  --pfp-size: 1.5rem;
-  --server-icon-size: 2rem;
-  --server-bar-size: 3rem;
-  --top-bar-height: 2rem;
-  --touch-target: 40px;
-  
-  /*******************************\\
+        --accent-color: rgb(var(--cyan));
+        --accent: (var(--accent-color));
+        --accent-contrast: rgb(var(--foreground));
+        --mention-color: rgb(var(--magenta));
+        --mention-text: rgb(var(--bright-white));
+        --font-code: "Monaspace Neon Var","CommitMono Nerd Font", "CommitMono", "JetBrainsMono Nerd Font", "JetBrainsMonoNL Nerd Font", "JetBrains Mono", "Intel One Mono", "Monocraft Nerd Font", "Monocraft", "CaskaydiaCove Nerd Font", "Cascadia Code", 'Symbols Nerd Font', monospace;
+        --font-display: "Atkinson Hyperlegible", "Bell Centennial Std Name and Number", "Inclusive Sans", "gg sans", "Helvetica Neue", Verdana, sans-serif;
+        --font-primary: "Atkinson Hyperlegible", "Bell Centennial Std Name and Number", "Inclusive Sans", "gg sans", sans-serif;
+        --pfp-size: 2rem;
+        --server-icon-size: 2.5rem;
+        --top-bar-height: 2rem;
+        --touch-target: 40px;
+
+        /*******************************\\
 	|      User Status colors      |
 	\\*******************************/
-  --rs-online-color: rgb(var(--green)) !important;
-  --rs-idle-color: rgb(var(--yellow)) !important;
-  --rs-dnd-color: rgb(var(--red)) !important;
-  --rs-offline-color: rgb(var(--white)) !important;
-  --rs-streaming-color: rgb(var(--magenta)) !important;
-  --rs-invisible-color: rgb(var(--white)) !important;
-}
-
-/* Shrink Avatars */
-.svg_f5b652[width="40"] {
-  height: calc(1.25*var(--pfp-size));
-}
-.svg_f5b652[width="32"] {
-  height: calc(1*var(--pfp-size));
-}
-.avatar__7bd22 {
-  width:var(--pfp-size);
-  height:var(--pfp-size);
-  margin-right:0.5rem;
-}
-.wrapper_edb6e0 {
-  position:relative;
-  border-radius:50%;
-  height: var(--pfp-size) !important;
-}
+        --rs-online-color: rgb(var(--green)) !important;
+        --rs-idle-color: rgb(var(--yellow)) !important;
+        --rs-dnd-color: rgb(var(--red)) !important;
+        --rs-offline-color: rgb(var(--white)) !important;
+        --rs-streaming-color: rgb(var(--magenta)) !important;
+        --rs-invisible-color: rgb(var(--white)) !important;
+    }
 
 
-/* .layout__59abc {
+    /*
+    * Color overrides
+    */
+    :root {
+        --background-primary: rgb(var(--background)) !important;
+        --background-secondary: rgb(var(--bright-black));
+        --background-secondary-alt: rgb(var(--black));
+        --background-tertiary: rgb(var(--black));
+        --interactive-normal: rgb(var(--foreground));
+        --channels-default: rgb(var(--bright-white));
+        --__header-bar-background: rgb(var(--black)) !important;
+        --bg-overlay: rgb(var(--black));
+        --channeltextarea-background: rgb(var(--black));
+        --text-normal: rgb(var(--foreground));
+    }
+
+    /* Shrink Avatars */
+    .svg_f5b652[width="40"] {
+        height: calc(1.25*var(--pfp-size));
+    }
+    .svg_f5b652[width="32"] {
+        height: calc(1*var(--pfp-size));
+    }
+    .avatar__7bd22 {
+        width: var(--pfp-size);
+        height: var(--pfp-size);
+        margin-right: 0.5rem;
+    }
+    .wrapper_edb6e0 {
+        position: relative;
+        border-radius: 50%;
+        height: var(--pfp-size) !important;
+    }
+
+
+    /* .layout__59abc {
 height: inherit;
 } */
+    /* Shrink DM boxes */
+    .layout__59abc {
+        height: 100%;
+        padding: none;
+    }
+    .container__8759a {
+        margin: 0.1em;
+        /*! padding: 1em; */
+    }
 
-/* Shrink DM boxes */
-.layout__59abc {
-  height: 100%;
-  padding: none;
-}
-.container__8759a {
-  margin:0.1em;
-  /*! padding: 1em; */
-}
+    /* Shrink DM name font and channel names */
+    .name__02dbd,
+    .name__8d1ec {
+        font-size: 0.9rem;
+        line-height: 1.25em;
+        font-family: var(--font-display);
+        font-weight: bold;
+    }
+    /* Shrink DM Status */
+    .subtext__623a0 {
+        font-size: 0.75rem;
+        line-height: 1em;
+        font-weight: lighter;
+    }
 
-/* Shrink DM name font and channel names */
-.name__02dbd,.name__8d1ec {
-  font-size:0.9rem;
-  line-height:1.25em;
-  font-family: var(--font-display);
-  font-weight: bold;
-}
-/* Shrink DM Status */
-.subtext__623a0 {
-  font-size:0.75rem;
-  line-height:1em;
-  font-weight: lighter;
-}
+    .sidebar_ded4b5:hover {
+        width: calc(20ch + var(--pfp-size));
+    }
+    .sidebar_ded4b5 {
+        width: calc(15ch + var(--pfp-size));
+        transition: width 1sec cubic-bezier 0;
+        transition-property: width;
+        transition-duration: 0.2s;
+        transition-timing-function: cubic-bezier(.68, -0.55, .27, 1.55);
+        transition-delay: 0s;
+        padding: 0.1em;
+    }
 
-.sidebar_ded4b5:hover {
-  width:calc(20ch + var(--pfp-size));
-}
-.sidebar_ded4b5 {
-  width:calc(15ch + var(--pfp-size));
-  transition: width 1sec cubic-bezier 0;
-  transition-property: width;
-  transition-duration: 0.2s;
-  transition-timing-function: cubic-bezier(.68,-0.55,.27,1.55);
-  transition-delay: 0s;
-  padding: 0.1em;
-}
+    /* Shrink channel padding */
+    .link__95dc0 {
+        padding: 0.1em;
+    }
 
-/* Shrink channel padding */
-.link__95dc0 {
-  padding: 0.1em;
-}
+    /* shrink server icon size */
+    .svg_ad7356,
+    .wrapper__3af0b {
+        height: var(--server-icon-size);
+        width: var(--server-icon-size);
+    }
+    /* shrink server bar*/
+    .listItem_fa7b36,
+    .guilds__2b93a,
+    .unreadMentionsIndicatorTop_ada847,
+    .unreadMentionsIndicatorBottom_fdb943 {
+        width: calc(var(--server-icon-size) + 1.25em);
+    }
 
-/* shrink server icon size */
-.svg_ad7356, .wrapper__3af0b{
-  height: var(--server-icon-size);
-  width: var(--server-icon-size);
-}
-/* shrink server bar*/
-.listItem_fa7b36, .guilds__2b93a, .unreadMentionsIndicatorTop_ada847, .unreadMentionsIndicatorBottom_fdb943{
-width: var(--server-bar-size);
-}
+    /* Shrink messages */
+    .cozy_f5c119.wrapper__09ecc {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: calc(2.5*var(--pfp-size));
+        max-width: 50ch;
+    }
+    /* fix padding with dms*/
+    .scroller__3d071 > div {
+        height: inherit !important;
+    }
+    .link__2e8e1 {
+        padding: 0.1em 0;
+    }
 
-/* Shrink messages */
-.cozy_f5c119.wrapper__09ecc {
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: calc(2.5*var(--pfp-size));
-	max-width: 50ch;
-}
-/* fix padding with dms*/
-.scroller__3d071 > div {
-  height: inherit !important;
-}
-.link__2e8e1 {
-  padding: 0.1em 0;
-}
+    /* fix unread pill alignment*/
+    .wrapper__3670f {
 
-/* fix unread pill alignment*/
-.wrapper__3670f {
+        height: var(--server-icon-size);
+    }
 
-  height:var(--server-icon-size);
+    /* shrink server name*/
+    .container__7c79d {
+        display: flex;
+        align-content: center;
+        max-height: var(--top-bar-height);
+        padding: 0;
+        margin: auto;
+    }
 
-}
+    .cozyMessage-1DWF9U.groupStart-3Mlgv1 {
+        width: 75ch;
+        min-height: 1.5rem;
+    }
+    .css-3vaxre-menu {
+        background-color: var(--background-tertiary);
+    }
 
-/* shrink server name*/
-.container__7c79d {
-  display: flex;
-  align-content: center;
-  max-height: var(--top-bar-height);
-  padding: 0;
-  margin: auto;
-  /*! border: 1px solid red; */
-  /*! box-sizing: content-box; */
-  min-height: var(--top-bar-height);
-}
+    .disabled-35mc5w:hover {
+        color: rgb(var(--red));
+    }
+    .emojiPickerHasTabWrapper-LoluYe .header-11eigE {
+        padding: 0.5em;
+        /*! background-color:rgb(var(--green)) !important; */
+    }
 
-
-/* top bar height */
-.container__11d72 {
-  max-height:var(--top-bar-height);
-  min-height: var(--top-bar-height);
-  /*! box-sizing: content-box; */
-  /*! align-items: center; */
-}
-.primaryInfo_b44f9d {
-  height:100%;
-}
-/* center icons vertically */
-.iconWrapper_af9215 {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-/* top bar icon size */
-.icon__4cb88 {
-  width:1em;
-  height:1em;
-}
+    .featureBadge-1FNGAH .featureTitle-3N9Stg {
+        color: rgb(var(--bright-magenta));
+    }
 
 
+    /* top bar height */
+    .container__11d72 {
+        max-height: var(--top-bar-height);
+        min-height: var(--top-bar-height);
+        /*! box-sizing: content-box; */
+        /*! align-items: center; */
+    }
+    .primaryInfo_b44f9d {
+        height: 100%;
+    }
+    /* center icons vertically */
+    .iconWrapper_af9215 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    /* top bar icon size */
+    .icon__4cb88 {
+        width: 1em;
+        height: 1em;
+    }
 
-/* friend list entries */
-.peopleListItem_d14722 {
-  height: auto !important;
-}
-.avatar__8986c {
-  margin: 0 0.5em 0 0;
-  padding-left: 0.25em;
-  align-self: center;
-}
-.peopleListItem_d14722:hover,
-.peopleListItem_d14722.active__6b8ff {
-  background:var(--background-modifier-hover);
-  box-shadow:none;
-  border-radius:8px;
-  border-color:transparent;
-  margin:0 10px 0 20px;
-  padding: unset;
-}
-/* pfp size in dms */
-.avatar__08316.clickable_d866f1 {
-  height: calc(1.25*var(--pfp-size));
-  width: calc(1.25*var(--pfp-size));
-}
 
-/* user profile */
-.withTagAsButton_cc125f .nameTag__0e320,
-.withTagless__98b7d .nameTag__0e320 {
-  padding-bottom:0.2em;
-  padding-left:0.4em;
-  padding-top:0.2em;
-  font-weight: lighter;
-  /*! flex: 1 1 5ch; */
-}
-.container_ca50b9 .avatar_f8541f {
-  height: var(--pfp-size) !important;
-  width: var(--pfp-size) !important;
-}
-.avatarWrapper_ba5175 {
-  margin-right:0.2rem;
-}
-.container_ca50b9 {
-  padding:0 0.25rem;
-  height: unset;
-  box-sizing: border-box;
-  width: 100%;
-  /*! overflow: visible; */
-  display: inline-flex;
-}
-.text-sm-normal_e612c7 {
-  font-family:var(--font-display);
-  font-size:0.8rem;
-  line-height:1rem;
-}
-.text-xs-normal__56c35 {
-  font-family:var(--font-display);
-  font-size:0.75rem;
-  line-height:0.8rem;
-}
-button.button__4f306 {
-  width: auto;
-  height: 100%;
-}
-.noWrap__5c413 {
-  height: var(--touch-target);
-}
-.withTagAsButton_cc125f,
-.withTagless__98b7d {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-.flex_f5fbb7 {
-  flex: 0 0 auto;
-}
 
-.wrapper_edb6e0 {
-  height: var(--pfp-size) !important;
-}
-.peopleListItem_d14722 {
-  margin-left:1em;
-  margin-right:1em;
-}
-.text__1dddb {
-  font-size:0.8rem;
-  line-height: 1rem;
-}
-.username__81ee6 {
-  font-size: 1rem;
-  line-height: 1.25rem;
-}
-/* highlight badge */
-.numberBadge__50328 {
-  border: 2px dashed white;
-}
+    /* friend list entries */
+    .peopleListItem_d14722 {
+        height: auto !important;
+    }
+    .avatar__8986c {
+        margin: 0 0.5em 0 0;
+        padding-left: 0.25em;
+        align-self: center;
+    }
+    .peopleListItem_d14722:hover,
+    .peopleListItem_d14722.active__6b8ff {
+        background: var(--background-modifier-hover);
+        box-shadow: none;
+        border-radius: 8px;
+        border-color: transparent;
+        margin: 0 10px 0 20px;
+        padding: unset;
+    }
+    /* pfp size in dms */
+    .avatar__08316.clickable_d866f1 {
+        height: calc(1.25*var(--pfp-size));
+        width: calc(1.25*var(--pfp-size));
+    }
 
-/* move badge */
-.lowerBadge__669e7 {
-  bottom:-0.25rem;
-  right:-0.25rem;
-}
-/* direct messages text */
-.privateChannelsHeaderContainer_ddcec6 {
-  padding:0.25rem 0 0.25rem 1rem;
-  height: unset;
-}
+    /* user profile */
+    .withTagAsButton_cc125f .nameTag__0e320,
+    .withTagless__98b7d .nameTag__0e320 {
+        padding-bottom: 0.2em;
+        padding-left: 0.4em;
+        padding-top: 0.2em;
+        font-weight: lighter;
+        /*! flex: 1 1 5ch; */
+    }
+    .container_ca50b9 .avatar_f8541f {
+        height: var(--pfp-size) !important;
+        width: var(--pfp-size) !important;
+    }
+    .avatarWrapper_ba5175 {
+        margin-right: 0.2rem;
+    }
+    .container_ca50b9 {
+        padding: 0 0.25rem;
+        height: unset;
+        box-sizing: border-box;
+        width: 100%;
+        /*! overflow: visible; */
+        display: inline-flex;
+    }
+    .text-sm-normal_e612c7 {
+        font-family: var(--font-display);
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .text-xs-normal__56c35 {
+        font-family: var(--font-display);
+        font-size: 0.75rem;
+        line-height: 0.8rem;
+    }
+    button.button__4f306 {
+        width: auto;
+        height: 100%;
+    }
+    .noWrap__5c413 {
+        height: var(--touch-target);
+    }
+    .withTagAsButton_cc125f,
+    .withTagless__98b7d {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+    .flex_f5fbb7 {
+        flex: 0 0 auto;
+    }
 
+    .wrapper_edb6e0 {
+        height: var(--pfp-size) !important;
+    }
+    .peopleListItem_d14722 {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .text__1dddb {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .username__81ee6 {
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+    /* highlight badge */
+    .numberBadge__50328 {
+        border: 2px dashed white;
+    }
+
+    /* move badge */
+    .lowerBadge__669e7 {
+        bottom: -0.25rem;
+        right: -0.25rem;
+    }
+    /* direct messages text */
+    .privateChannelsHeaderContainer_ddcec6 {
+        padding: 0.25rem 0 0.25rem 1rem;
+        height: unset;
+    }
+    /* Active now boxes */
+    .padded__89fb8 {
+        padding: 0.75em;
+    }
+    .itemCard__1f162 {
+        margin-top: 0.25em;
+        border-radius: 8px
+    }
+    .scroller__00e7e {
+        padding: 1em;
+    }
+    /* Profile box */
+    .userPopoutOverlayBackground_d8afa4 {
+        margin: 1.5em 0.75em 0.75em;
+        max-height: calc(100vh - 128px - var(--custom-user-popout-outside-components-height))
+    }
+    .usernameSection__53868,
+    .customStatusSection_ce6c27 {
+        padding-top: 0.75em;
+        padding-right: 0;
+        padding-left: 0.75em;
+    }
+    .section__6f61e {
+        padding-top: 0.5em;
+    }
+    .scroller__750f5 {
+        padding: 0 0.5em;
+    }
+    .item__183e8 {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0 0.5em;
+    }
+    .menu__5cf7f div[role=separator] {
+        border-color: var(--profile-body-divider-color);
+        margin: 0.5em 0.25em;
+    }
+    /* Do not disturb icon */
+    .pointerEvents__33f6a[mask="url(#svg-mask-status-dnd)"] {
+        fill: rgb(var(--red));
+    }
+    .pointerEvents__33f6a[mask="url(#svg-mask-status-online)"],.pointerEvents__33f6a[mask="url(#svg-mask-status-online-mobile)"] {
+        fill: rgb(var(--green));
+    }
+    .pointerEvents__33f6a[mask="url(#svg-mask-status-idle)"] {
+        fill: rgb(var(--yellow));
+    }
+}
