@@ -36,12 +36,14 @@
   --accent-contrast: rgb(var(--foreground));
   --mention-color: rgb(var(--magenta));
   --mention-text: rgb(var(--bright-white));
-  --font-code: \"ProggyVector Nerd Font\",\"Liga SFMono Nerd Font\", Consolas, \"Andale Mono WT\", \"Andale Mono\", \"Lucida Console\", \"Lucida Sans Typewriter\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", \"Liberation Mono\", \"Nimbus Mono L\", Monaco, \"Courier New\", Courier, monospace;
-  --font-display: \"Roboto Flex\", \"Arial Narrow\", Tahoma, \"gg sans\", \"Noto Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;
-  --font-primary: \"Roboto Flex\",\"Arial Narrow\",\"gg sans\",sans-serif;
-  
-  --pfp-size: 2rem;
-  
+  --font-code: "CommitMono Nerd Font", monospace;
+  --font-display: "Comic Neue", "gg sans", sans-serif;
+  --font-primary: "Atkinson Hyperlegible","gg sans",sans-serif;
+  --pfp-size: 1.5rem;
+  --server-icon-size: 2rem;
+  --server-bar-size: 3rem;
+  --top-bar-height: 2rem;
+  --touch-target: 40px;
   
   /*******************************\\
 	|      User Status colors      |
@@ -53,1185 +55,243 @@
   --rs-streaming-color: rgb(var(--magenta)) !important;
   --rs-invisible-color: rgb(var(--white)) !important;
 }
-/* TODO: figure out how to theme the search popup: https:// canary.discord.com/channels/538759280057122817/755015869914152981/805079836720234526 */
-.container-2McqkF {
-  background-color: var(--background-secondary) !important;
+
+/* Shrink Avatars */
+.svg_f5b652[width="40"] {
+  height: calc(1.25*var(--pfp-size));
+}
+.svg_f5b652[width="32"] {
+  height: calc(1*var(--pfp-size));
+}
+.avatar__7bd22 {
+  width:var(--pfp-size);
+  height:var(--pfp-size);
+  margin-right:0.5rem;
+}
+.wrapper_edb6e0 {
+  position:relative;
+  border-radius:50%;
+  height: var(--pfp-size) !important;
 }
 
-/*
-Drop shadow behind images, video, codeblocks, and other embeds
-by Benny#9876
-https:// discord.com/channels/538759280057122817/755005803303403570/801919477918597211 */
-.embedWrapper-1MtIDg {
-  box-shadow: 0px 8px 15px -8px rgba(0, 0, 0, 0.3);
-}
 
-/*
-Jump to bottom pill
-by me!
-https:// discord.com/channels/538759280057122817/755005803303403570/805724588277104680 */
-.jumpToPresentBar-1cEnH0 .barButtonMain-2GIx4o {
-  display: none;
-}
-
-/*******************************\\
-|      stuff stolen from        |
-|     #css-snippets in the      |
-|     powercord discord :P      |
-\\*******************************/
-
-/*
-Better message box
-courtesy of Jenny#0002 on powercord discord
-https:// discord.com/channels/538759280057122817/755005803303403570/804665923801579541  */
-.form-3gdLxP {
-  padding: 0px;
-}
-
-/*  This class was painful to get */
-/*  HTML for those interested: <span class=\"inner-1gJC7_\"><span class=\"wanderingCubesItem-WPXqao\"></span><span class=\"wanderingCubesItem-WPXqao\"></span></span> */
-/*  Loading cubes */
-.wanderingCubesItem-3Us-UG {
-  background-color: rgb(var(--magenta));
-}
-
-/* Explore and Add server icons */
-/* .circleIconButton-1QV--U {
-  path {
-    fill: var(--accent-color);
-  }
-
-  &.selected-1JjBPm {
-    background-color: var(--accent-color) !important;
-    color: var(--accent-contrast) !important;
-
-    path {
-      fill: var(--accent-contrast) !important;
-    }
-  }
+/* .layout__59abc {
+height: inherit;
 } */
 
-/* Explore selected category */
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
-  color: var(--accent-contrast);
-  background-color: var(--accent-color);
+/* Shrink DM boxes */
+.layout__59abc {
+  height: 100%;
+  padding: none;
+}
+.container__8759a {
+  margin:0.1em;
+  /*! padding: 1em; */
 }
 
-/* Context menus */
-/* All buttons */
-.colorDefault-CDqZdO.focused-3qFvc8:not(.colorDanger-3n-KnP) {
-  color: var(--accent-contrast);
-  background-color: var(--accent-color);
-}
-
-/*  Janky but it\'ll do */
-
-/* Beta text */
-.beta-3smTDE {
-  color: rgb(var(--red));
-}
-
-
-.contentWrapper-2f9yME {
-  /*! background-color: rgba(var(--background),0.9); */
-}
-
-
-/**********************************\\
-|          ig compat with          |
-|  https:// github.com/NYRI4/Comfy  |
-|      ask past me if this is      |
-|        actually useful lol       |
-\\**********************************/
-.avatarWrapper-1B9FTW {
-  --avatar-bottom: 5px;
-}
-
-/*******************************\\
-|            Modals             |
-\\*******************************/
-
-/* Upload modal */
-.uploadModal-2ie9O_ {
-  background-color: var(--background-secondary) !important;
-}
-
-/*******************************\\
-|           Settings            |
-\\*******************************/
-/* settings close icon */
-.keybind-13vtq8 {
-  color: rgb(var(--red)) !important;
-}
-
-
-@media (max-width: 1800px) {
-  .featureGrid-SSlfD0 {
-    grid-template-columns: repeat(3, 206px);
-  }
-  /* Nitro settings button */
-  [aria-controls=\"Discord Nitro-tab\"] {
-    color: rgb(var(--magenta)) !important;
-  }
-
-  [aria-controls=\"Discord Nitro-tab\"]:hover,
-  [aria-controls=\"Discord Nitro-tab\"][aria-selected=\"true\"] {
-    color: var(--interactive-hover) !important;
-    background-color: rgb(var(--magenta)) !important;
-  }
-
-  code {
-    box-shadow: 0px 8px 15px -8px rgba(0, 0, 0, 0.3);
-  }
-
-  userPopoutOuter-1OHwPL {
-    box-shadow: 1px 1px 8px 2px rgba(var(--foreground), 0.25);
-  }
-}
-
-.accountProfileCard-lbN7n- {
-  background-color: var(--background-primary);
-  box-shadow: 1px 1px 8px 2px rgba(var(--foreground), 0.25);
-}
-/*  Add game popup */
-.addGamePopout-3yePJc {
-  background-color: var(--background-secondary) !important;
-}
-
-.app-2CXKsg button {
-  margin: 0 -1px;
-}
-
-/* Autocomplete */
-.autocomplete-3NRXG8 {
-  background-color: var(--background-secondary) !important;
-  margin: 0 1em;
-}
-
-.avatar-1EWyVD .svg-1G_H_8 {
-  width: var(--pfp-size);
-}
-.avatar-1HDIsL .wrapper-3Un6-K .svg-1G_H_8 {
-  /*! width: 1.5rem; */
-  /*! max-height: var(--pfp-size); */
-  /*! min-width: var(--pfp-size); */
-  /*! min-height: var(--pfp-size); */
-  /*! display: flex; */
-  /*! place-content: end; */
-  /*! width: calc(var(--pfp-size) * 1.0); */
-  scale: calc(75%);
-  /*! margin-right: 0.25rem; */
-}
-.avatar-1HDIsL {
-  /*! max-width: var(--pfp-size); */
-  margin-right: 0.5em;
-  /*! min-height: var(--pfp-size); */
-  /*! padding: 0; */
-  /*! min-width: var(--pfp-size); */
-  /*! display: flex; */
-  align-items: center;
-  /*! max-height: var(--pfp-size); */
-  /*! height: 125%; */
-  /*! width: 75%; */
-  /*! height: 75%; */
-}
-.avatar-2MSPKk .svg-1G_H_8 {
-  width: var(--pfp-size);
-}
-.avatar-2MSPKk {
-  width: var(--pfp-size) !important;
-  margin: 0 0.5em 0 0;
-}
-.avatar-2e8lTP.clickable-31pE3P {
-  width: 2.25em;
-  height: 2.25em;
-  pointer-events: auto;
-}
-
-.avatarWrapper-1B9FTW {
-  align-items: center;
-}
-
-.avatarWrapperNormal-3wFMbf.avatarWrapper-3H_478 > .wrapper-1VLyxH,
-.header-QKLPzZ > .avatar-3EQepX.wrapper-1VLyxH,
-.avatarHint-1qgaV3 {
-  width: 100px !important;
-  height: 100px !important;
-}
-
-/* Blurple sliders */
-.barFill-2Bh7CX {
-  background-color: var(--control-slider-bar);
-}
-
-.base-3bcbY3 {
-  top: -24px;
-  background-color: var(--background-primary);
-}
-
-.button-12Fmur {
-  width: 20px;
-  height: 36px;
-}
-.button-12Fmur {
-  width: 24px;
-  height: 32px;
-}
-/* Yellow \"reload required\" banner in powercord updater */
-.cardWarning-WRe-Qa {
-  border-color: rgb(var(--yellow));
-  background-color: rgb(var(--yellow));
-}
-
-.categoryHeader-OpJ1Ly,
-.selected-3H3-RC {
-  background-color: var(--background-tertiary) !important;
-}
-
-.channelTextArea-1FufC0 {
-  margin-bottom: 0px;
-}
-
-/* The rectangle message box breaks the upload dialog border-radius */
-.channelTextAreaUpload-30SRDh .scrollableContainer-15eg7h {
-  border-radius: 8px;
-}
-
-/* Checkboxes */
-.checkbox-f1HnKB.checked-1pZh2h {
-  border-color: var(--control-checkbox-checked) !important;
-  background-color: var(--control-checkbox-checked) !important;
-}
-
-.children-1MGS9G {
-  margin-top: 0;
-}
-
-/* Channel hashtag icon */
-.children-3xh0VB .iconWrapper-2awDjA path[fill=\"currentColor\"] {
-  fill: var(--accent-color);
-}
-
-.children-3xh0VB {
-  display: inline-flex;
-}
-
-.children-3xh0VB::after {
-  display: none;
-}
-
-.circleIconButton-1VxDrg {
-  color: rgb(var(--green));
-  cursor: pointer;
-  background-color: rgb(var(--background));
-}
-
-.circleIconButton-1VxDrg.selected-2r1Hvo {
-  color: rgb(var(--foreground));
-  background-color: rgb(var(--green));
-}/* That damn close button */
-.closeButton-PCZcma path {
-  fill: rgb(var(--red));
-}
-
-.closeButton-PCZcma {
-  border-color: rgb(var(--red)) !important;
-}
-
-.colorBrand-26tvUE {
-  color: var(--accent-color);
+/* Shrink DM name font and channel names */
+.name__02dbd,.name__8d1ec {
+  font-size:0.9rem;
+  line-height:1.25em;
+  font-family: var(--font-display);
   font-weight: bold;
 }
-
-/* Danger actions => delete message */
-.colorDanger-3n-KnP,
-.colorDanger-3n-KnP .checkbox-hADx5o,
-.colorDanger-3n-KnP .radioSelection-1UHp0b {
-  color: rgb(var(--red));
+/* Shrink DM Status */
+.subtext__623a0 {
+  font-size:0.75rem;
+  line-height:1em;
+  font-weight: lighter;
 }
 
-.colorDanger-3n-KnP.focused-3qFvc8 {
-  color: var(--text-normal);
-  background-color: rgb(var(--red));
+.sidebar_ded4b5:hover {
+  width:calc(20ch + var(--pfp-size));
+}
+.sidebar_ded4b5 {
+  width:calc(15ch + var(--pfp-size));
+  transition: width 1sec cubic-bezier 0;
+  transition-property: width;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(.68,-0.55,.27,1.55);
+  transition-delay: 0s;
+  padding: 0.1em;
 }
 
-.colorDefault-2_rLdz.focused-3LIdPu {
-  color: rgb(var(--foreground));
-  background-color: rgb(var(--bright-black));
+/* Shrink channel padding */
+.link__95dc0 {
+  padding: 0.1em;
 }
 
-.colorDefault-CDqZdO .checkbox-hADx5o,
-.colorDefault-CDqZdO.focused-3qFvc8 .check-3HZJs4 {
-  color: var(--control-checkbox-checked);
+/* shrink server icon size */
+.svg_ad7356, .wrapper__3af0b{
+  height: var(--server-icon-size);
+  width: var(--server-icon-size);
+}
+/* shrink server bar*/
+.listItem_fa7b36, .guilds__2b93a, .unreadMentionsIndicatorTop_ada847, .unreadMentionsIndicatorBottom_fdb943{
+width: var(--server-bar-size);
 }
 
-.colorDefault-CDqZdO.focused-3qFvc8 .checkbox-hADx5o,
-.colorDefault-CDqZdO:not(.focused-3qFvc8) .check-3HZJs4 {
-  color: var(--accent-contrast) !important;
+/* Shrink messages */
+.cozy_f5c119.wrapper__09ecc {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: calc(2.5*var(--pfp-size));
+	max-width: 50ch;
+}
+/* fix padding with dms*/
+.scroller__3d071 > div {
+  height: inherit !important;
+}
+.link__2e8e1 {
+  padding: 0.1em 0;
 }
 
-/*  Command autocomplete parameters */
-.colorHeaderPrimary-jN_yGr.active-WHsd77 {
-  background-color: var(--header-primary) !important;
+/* fix unread pill alignment*/
+.wrapper__3670f {
+
+  height:var(--server-icon-size);
+
 }
 
-/*  Unreads PROTIP */
-.colorStatusGreen-2HKYOW {
-  color: var(--accent-color);
-}
-
-.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-/*******************************\\
-|     Bits discord decided      |
-|   not to use variables for    |
-\\*******************************/
-.container-2cd8Mz {
-  background-color: var(--background-accent) !important;
-}
-
-/* Switches */
-.container-2nx-BQ {
-  background-color: rgb(var(--green)) !important;
-}
-
-.container-32HW5s {
-  margin: 0;
-  padding: 0;
-}
-.container-YkUktl .avatar-1EWyVD {
-  width: 1.5em !important;
-}
-.container-YkUktl {
-  height: 4em;
-  font-size: 12px;
-}
-.container-ZMc96U {
-  height: 2.25em;
-}
-.container-ZMc96U {
-  height: 36px;
-}
-
-.container-ZMc96U {
-  padding: 0;
-}
-
-/*******************************\\
-|            Header             |
-\\*******************************/
-
-.container-ZMc96U.themed-Hp1KC_ {
-  background-color: var(--background-secondary);
-}
-
-.containerDefault-YUSmu3.selected-2TbFuo .iconItem-1EjiK0,
-.containerDefault-YUSmu3:hover .iconItem-1EjiK0 {
-  opacity: 1;
-}
-
-.content-1gYQeQ {
-  margin-left: 8px;
-  padding: 0 6px;
-}
-
-.content-66wMin,
-.name-2m3Cms {
-  font-size: ;
-}
-/* Changelog links are stubborn as to colors */
-.content-s2SEQO a {
-  color: var(--text-link);
-}
-
-/* Message pin */
-.content-vSHmMD .anchor-1MIwyf {
-  color: var(--text-link);
-}
-
-.content-yjf30S {
-  padding-left: 4px;
-}
-
-.contentColumn-1C7as6 {
-  max-width: 40rem;
-}
-
-.contentColumn-1C7as6 {
-  max-width: 80rem;
-}
-
-.contentColumnDefault-3eyv5o {
-  margin: auto;
-}
-
-.cozyMessage-1DWF9U.groupStart-3Mlgv1 {
-  width: 75ch;
-  min-height: 1.5rem;
-}
-.css-3vaxre-menu {
-  background-color: var(--background-tertiary);
-}
-
-.disabled-35mc5w:hover {
-  color: rgb(var(--red));
-}
-.emojiPickerHasTabWrapper-LoluYe .header-11eigE {
-  padding:0.5em;
-  /*! background-color:rgb(var(--green)) !important; */
-}
-
-.featureBadge-1FNGAH .featureTitle-3N9Stg {
-  color: rgb(var(--bright-magenta));
-}
-
-/* Nitro Features */
-.featureEmoji-cnSD0D .featureTitle-3N9Stg {
-  color: rgb(var(--yellow));
-}
-
-.featureGoLive-15Pf6l .featureTitle-3N9Stg {
-  color: rgb(var(--bright-red));
-}
-
-.featurePremiumGuild-2uV6-N .featureTitle-3N9Stg {
-  color: rgb(var(--cyan));
-}
-
-.featureProfile-2h92hd .featureTitle-3N9Stg {
-  color: rgb(var(--green));
-}
-
-.featureUploadSize-3k1zif .featureTitle-3N9Stg {
-  color: rgb(var(--blue));
-}
-
-.fieldList-in8WkP {
-  padding: 0.5em;
-  background-color: var(--background-tertiary);
-}
-
-/* stop message being undiscernable from BG */
-.footer-31IekZ {
-  background-color: var(--background-primary) !important;
-}
-
-.footer-VCsJQY {
-  background-color: var(--background-primary) !important;
-}
-
-.group-spacing-16 .groupStart-3Mlgv1 {
-  margin-top: 0.5rem;
-}
-.guilds-2JjMmN {
+/* shrink server name*/
+.container__7c79d {
   display: flex;
-  width: 3em;
-}
-.guilds-2JjMmN {
-  width: 60px;
-}
-
-.header-3OsQeK {
-  padding: 6px 12px;
-}
-
-/*
-Bigger popup avatars
-by wathhr#1459
-https://discord.com/channels/538759280057122817/755005803303403570/797655264199180348 
-*/
-.header-QKLPzZ > .avatar-3EQepX.wrapper-1VLyxH {
-  top: 5px;
+  align-content: center;
+  max-height: var(--top-bar-height);
+  padding: 0;
+  margin: auto;
+  /*! border: 1px solid red; */
+  /*! box-sizing: content-box; */
+  min-height: var(--top-bar-height);
 }
 
-.hero-1aNo0v {
-  max-width: unset;
-}
 
-.hoverRoll-2XwpoF {
-  font-size: 0.8em;
-  line-height: 1em;
+/* top bar height */
+.container__11d72 {
+  max-height:var(--top-bar-height);
+  min-height: var(--top-bar-height);
+  /*! box-sizing: content-box; */
+  /*! align-items: center; */
 }
-.iconContainer-21RCa3 {
-  margin-right: 0.2rem;
+.primaryInfo_b44f9d {
+  height:100%;
 }
-
-/* Invite to this channel button */
-.iconItem-1EjiK0 path {
-  fill: var(--accent-color);
-}
-
-.iconItem-1EjiK0 {
-  display: block;
-  opacity: 0;
-}
-
-.iconWrapper-2awDjA.selected-29KTGM:hover path {
-  fill: var(--accent-color);
-}
-
-.iconWrapper-2awDjA.selected-29KTGM:hover {
-  filter: brightness(1.2);
-}
-
-/* Changelog text */
-.improved-1NJK-y {
-  color: rgb(var(--magenta));
-}
-
-/* Version message */
-.info-1sUqUG .colorMuted-20987_:last-child::after {
-  display: block;
-  text-transform: none;
-  content: \"Diskai 1.2 (git master)\";
-}
-
-/* Quick Switcher \"PROTIP\" */
-.inline-1zjmuk .pro-3GwLMX {
-  color: var(--accent-color) !important;
-}
-
-.inner-NQg18Y {
-  padding-top: 4px;
-}
-
-.interactive-iyXY_x {
-  /* background: rgba(var(--bright-black), 0.15); */
-  border-radius: 8px;
-  /*! padding: 2px; */
-  /*! align-content: center; */
-  /*! display: inline-flex; */
-}
-.item-2GWPIy {
-  font-size: 14px;
-}
-
-.jumpToPresentBar-1cEnH0 .barButtonAlt-TQoCdZ {
-  bottom: 1.6rem;
-  float: right;
-  border-radius: 0.7rem 0 0 0.7rem;
-  background-color: var(--background-tertiary);
-}
-
-.jumpToPresentBar-1cEnH0 {
-  display: block;
-  right: 12px;
-  background-color: transparent;
-}
-
-/* Keyshortcuts modal */
-.keyboardShortcutsModal-2CRmCm {
-  background-color: var(--background-primary) !important;
-}
-
-.layout-1LjVue {
-  height: 1.5em;
-  margin-left: -2px;
-  margin: 0 0 0 -0.1em;
-}
-.layout-1LjVue {
-  height: 2rem;
-  padding: 2px;
-}
-
-.layout-1LjVue {
-  height: 36px;
-  place-items: center;
-}
-
-.listItem-3SmSlK {
+/* center icons vertically */
+.iconWrapper_af9215 {
+  height: 100%;
+  display: flex;
   align-items: center;
-  width: 3em;
 }
-/* Shrink NavBar */
-.listItem-3SmSlK {
-  width: 60px;
-}
-
-/* LIVE tag in VC */
-.liveSmall-1Urjcy {
-  background-color: rgb(var(--red)) !important;
+/* top bar icon size */
+.icon__4cb88 {
+  width:1em;
+  height:1em;
 }
 
-.lookFilled-1H2Jvj.colorBrand-2M3O3N {
-  color: var(--text-normal);
-  background-color: rgb(var(--bright-black));
+
+
+/* friend list entries */
+.peopleListItem_d14722 {
+  height: auto !important;
 }
-/* Filled buttons*/
-.lookFilled-yCfaCM {
-  color: var(--text-normal) !important;
+.avatar__8986c {
+  margin: 0 0.5em 0 0;
+  padding-left: 0.25em;
+  align-self: center;
+}
+.peopleListItem_d14722:hover,
+.peopleListItem_d14722.active__6b8ff {
+  background:var(--background-modifier-hover);
+  box-shadow:none;
+  border-radius:8px;
+  border-color:transparent;
+  margin:0 10px 0 20px;
+  padding: unset;
+}
+/* pfp size in dms */
+.avatar__08316.clickable_d866f1 {
+  height: calc(1.25*var(--pfp-size));
+  width: calc(1.25*var(--pfp-size));
 }
 
-.lookFilled-yCfaCM,
-.lookInverted-2mDUMi {
-  transition: background-color 0.17s ease, color 0.17s ease, filter 0.17s ease;
+/* user profile */
+.withTagAsButton_cc125f .nameTag__0e320,
+.withTagless__98b7d .nameTag__0e320 {
+  padding-bottom:0.2em;
+  padding-left:0.4em;
+  padding-top:0.2em;
+  font-weight: lighter;
+  /*! flex: 1 1 5ch; */
+}
+.container_ca50b9 .avatar_f8541f {
+  height: var(--pfp-size) !important;
+  width: var(--pfp-size) !important;
+}
+.avatarWrapper_ba5175 {
+  margin-right:0.2rem;
+}
+.container_ca50b9 {
+  padding:0 0.25rem;
+  height: unset;
+  box-sizing: border-box;
+  width: 100%;
+  /*! overflow: visible; */
+  display: inline-flex;
+}
+.text-sm-normal_e612c7 {
+  font-family:var(--font-display);
+  font-size:0.8rem;
+  line-height:1rem;
+}
+.text-xs-normal__56c35 {
+  font-family:var(--font-display);
+  font-size:0.75rem;
+  line-height:0.8rem;
+}
+button.button__4f306 {
+  width: auto;
+  height: 100%;
+}
+.noWrap__5c413 {
+  height: var(--touch-target);
+}
+.withTagAsButton_cc125f,
+.withTagless__98b7d {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.flex_f5fbb7 {
+  flex: 0 0 auto;
 }
 
-.lookFilled-yCfaCM.colorBrand-I6CyqQ {
-  background-color: var(--control-button) !important;
+.wrapper_edb6e0 {
+  height: var(--pfp-size) !important;
 }
-
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled {
-  background-color: var(--control-button-muted) !important;
+.peopleListItem_d14722 {
+  margin-left:1em;
+  margin-right:1em;
 }
-
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled:hover,
-.lookFilled-yCfaCM.colorYellow-Pgtmch:hover,
-.lookFilled-yCfaCM.colorRed-rQXKgM:hover,
-.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
-  filter: brightness(0.85);
-}
-
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {
-  background-color: rgb(var(--bright-green)) !important;
-}
-
-.lookFilled-yCfaCM.colorRed-rQXKgM {
-  background-color: rgb(var(--red)) !important;
-}
-
-.lookFilled-yCfaCM.colorYellow-Pgtmch {
-  background-color: var(--control-button-yellow) !important;
-}
-
-/* Inverted buttons */
-.lookInverted-2mDUMi.colorYellow-Pgtmch {
-  color: rgb(var(--yellow));
-  background-color: rgb(var(--white));
-}
-
-/* settings remove text */
-.lookLink-15mFoz.colorPrimary-2AuQVo {
-  color: rgb(var(--red));
-}
-
-/* red outline settings buttons */
-.lookOutlined-3yKVGo.colorRed-rQXKgM {
-  border-color: rgb(var(--red));
-  color: rgb(var(--red));
-}
-
-.mainContent-20q_Hp {
-  padding: 0;
-}
-
-.medium-2NClDM.iconLayout-3Bjizv {
-  border-radius: 0 8px 8px 0;
-  box-shadow: 0 0 3px 1px rgba(var(--bright-cyan), 0.75);
-}
-/* Hypesquad banners */
-.membershipDialogHouse1-R8jb0l {
-  /* Shoutouts to Remko#0999 for giving me the Bravery CSS class */
-  background-color: rgb(var(--magenta));
-}
-
-.membershipDialogHouse2-2W27iJ {
-  /* Shoutouts to CastIce#3081 for giving me the Brilliance CSS class */
-  background-color: rgb(var(--bright-red));
-}
-
-.membershipDialogHouse3-1E5AN4 {
-  /* Balance */
-  background-color: var(--turquoise);
-}
-
-/* Mentions */
-.mentioned-Tre-dv::before {
-  background-color: rgb(var(--yellow));
-}
-
-.message-2CShn3 {
-  padding-right: 2em !important;
-}
-.message-G6O-Wv {
-  background-color: var(--background-tertiary) !important;
-}
-
-.name-2m3Cms {
-  font-size: 0.9em;
-  /*! font-weight: bold; */
-  line-height: 1.5em;
-}
-.nameTag-sc-gpq {
-  margin-right: 0;
-  padding: 0 0 0 6px !important;
-}
-.newMessagesBar-1hF-9G {
-  height: var(--pfp-size);
-}
-
-/*  New msg bar, bot tag */
-.newMessagesBar-1hF-9G,
-.botTag-2mryIa {
-  background-color: rgb(var(--magenta));
-}
-
-/*  Playing game banner */
-.notDetected-2HEmAp {
-  background-color: var(--background-tertiary) !important;
-}
-
-.nowPlaying-zBamm2 {
-  background-color: rgb(var(--green)) !important;
-}
-
-.numberBadge-37OJ3S {
-  box-shadow: 0px 0px 8px 2px rgb(var(--red));	
-}
-
-/*  Edit message buttons */
-.operations-3q3u6E > a {
-  color: var(--accent-color);
-}
-
-.option-1QI4c9:hover {
-  background-color: rgb(var(--magenta));
-}
-
-.option-2KkUJO::after {
-  display: none;
-}
-
-.padded-2NSY6O {
-  padding: 8px;
-}
-
-.peopleListItem-u6dGxF {
-  height: 2.5rem !important;
-  margin: 0 0.5rem;
-  padding: 0 0.5rem;
-}
-
-.peopleListItem-u6dGxF.active-2UF8Zh,
-.peopleListItem-u6dGxF:hover {
-  margin: 0 0.5rem;
-  padding: 0.5rem;
-}
-#popout_114 {
-  background: rgba(var(--black),0.75);
-  border-radius: 1em;
-}
-.progress-YsDrV- {
-  color: rgb(var(--yellow));
-}
-
-/* Delete modal */
-.root-g14mjS {
-  background-color: var(--background-secondary) !important;
-}
-
-.scrollableContainer-15eg7h {
-  min-height: 53px;
-  border-radius: 0px;
-}
-
-.scroller-3X7KbA div:has(#vc-friendcount) {
-  margin-bottom: 0.25em;
-  font-size: 0.5em;
-  line-height: 0.5em;
-}
-.scroller-hE2gWq {
-  padding: 8px;
-}
-
-.searchBar-2aylmZ {
-  margin: 4px 8px;
-  padding: 0 8px;
-}
-
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {
-  height: 2em;
-  font-size: 12px;
-  line-height: 1em;
-}
-.searchBar-3TnChZ {
-  height: 2.25em;
-}
-.select-1YfRS9 {
-  background-color: var(--background-primary);
-}
-
-.selected-18Wszc.disabled-35mc5w {
-  color: rgb(var(--red));
-}
-
-.selected-18Wszc.option-1QI4c9 {
-  border-color: rgb(var(--magenta));
-  background-color: rgb(var(--magenta));
-}
-
-.side-1lrxIh .item-2GWPIy {
-  width: 10rem;
-  padding: 2px 6px;
-}
-
-.sidebar-1tnWFu {
-  width: 8em;
-  transition: width 0.20s ease-in-out;
-}
-
-.sidebar-1tnWFu:hover {
-  width: 12em;
-  transition: width 0.20s ease-in-out;
-}
-.sidebar-nqHbhN {
-  width: 10em;
-  padding: 0.5rem 6px;
-}
-/*  Make stuff WIDE */
-.sidebarRegion-1VBisG {
-  flex: 0;
-}
-
-.sidebarRegionScroller-FXiQOh {
-  padding-left: 5rem;
-}
-
-.sidebarRegionScroller-FXiQOh {
-  padding: 0;
-}
-/* Notification bell strikethrough */
-.strikethrough-3Wiitd {
-  color: rgb(var(--red));
-}
-
-.subtext-14b69p {
-  font-size: 0.75em;
-  line-height: 1em;
-}
-.svg-2ifYOU {
-  width: 2em;
-  height: 2em;
-}
-.svg-2ifYOU {
-  width: 36px;
-  height: 36px;
-}
-
-.text-3j8t_e {
-  font-size: 1rem;
+.text__1dddb {
+  font-size:0.8rem;
   line-height: 1rem;
 }
-
-.text-MPIeXO {
-  font-size: 0.9em;
+.username__81ee6 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+/* highlight badge */
+.numberBadge__50328 {
+  border: 2px dashed white;
 }
 
-.theme-dark .container-YkUktl {
-  margin: -2px 0;
-  padding: 0 6px;
+/* move badge */
+.lowerBadge__669e7 {
+  bottom:-0.25rem;
+  right:-0.25rem;
 }
-.theme-dark {
-  /*******************************\\
-	|          BG colors           |
-	\\*******************************/
-
-  /* main BG colors */
-  --background-primary: rgb(var(--background));
-  --background-mobile-primary: var(--background-primary);
-  --background-floating: rgb(var(--background));
-  --background-secondary: rgba(var(--black),0.95);
-  --background-secondary-alt: rgba(var(--bright-black), 0.2);
-  --background-mobile-secondary: var(--background-secondary);
-  --background-tertiary: rgb(var(--bright-black));
-  --background-accent: rgb(var(--background));
-  --background-modifier-selected: rgb(var(--bright-black));
-  --background-modifier-hover: rgba(var(--bright-black), 0.75);
-  /* textarea colors */
-  --channeltextarea-background: rgb(var(--bright-black) bright-);
-  /* fix quick switcher textarea color */
-  --deprecated-quickswitcher-input-background: var(
-    --channeltextarea-background
-  );
-  --deprecated-card-bg: rgb(var(--bright-black));
-  /* Text colors */
-  /* main Text colors */
-  --text-normal: rgb(var(--foreground));
-  --text-muted: rgb(var(--bright-white));
-  --text-link: rgb(var(--bright-blue));
-  /* channels */
-  --channels-default: var(--text-normal);
-  --interactive-active: var(--accent-color);
-  --interactive-active: var(var(--text-normal));
-  --interactive-muted: var(--text-muted);
-  /* headers */
-  --header-primary: var(--accent-color);
-  --header-secondary: var(--text-normal);
-  /* Wait this is actually the stock value */
-
-  /* Danger Button */
-  --button-outline-danger-border-hover: rgb(var(--red));
-  --button-outline-danger-border-active: rgb(var(--red));
-  --button-danger-background-active: rgb(var(--bright-red));
-  --button-secondary-background: rgb(var(--bright-black));
-  --button-secondary-background-active: rgb(var(--black));
-  --button-secondary-background-disabled: rgb(var(--white));
-  --button-secondary-background-hover: var(--accent-color);
-
-  --input-background: rgb(var(--bright-black));
-  /* Controls */
-  --control-radio-dot: rgb(var(--magenta));
-  /* Radio button */
-  --control-checkbox-checked: rgb(var(--magenta));
-  /* Checked checkbox */
-  --control-slider-bar: rgb(var(--magenta));
-  /* Slider bar */
-  --control-button: rgb(var(--magenta));
-  /* Button */
-  --control-button-muted: rgb(var(--bright-magenta));
-  /* Muted Button */
-  --control-button-yellow: rgb(var(--yellow));
-  /* Yellow Button */
-  --radio-group-dot-foreground: var(--control-radio-dot);
-  /* Radio button dot */
-
-  /* Misc */
-  --background-mentioned: rgba(var(--yellow), 20%);
-  --background-mentioned-hover: rgba(var(--yellow), 15%);
-
-  /* Add Friend button, maybe others? */
-  --status-positive-background: rgb(var(--green));
-  --status-positive-text: rgb(var(--foreground));
-
-  --status-danger: rgb(var(--bright-red));
-  --black: 14, 19, 88 !important;
-  --white: 128, 128, 130 !important;
-}
-
-.theme-light {
-  /*******************************\\
-	|          BG colors           |
-	\\*******************************/
-
-  /* main BG colors */
-  --background-primary: rgb(var(--bright-white));
-  --background-secondary: #ddddd5;
-  --background-mobile-secondary: var(--background-secondary);
-  --background-tertiary: var(--foreground);
-  --background-accent: #bfbfbf;
-  /* --background-modifier-accent: #ffffff18; */
-  /* textarea colors */
-  --channeltextarea-background: #ccccce;
-  /* fix quick switcher textarea color */
-  --deprecated-quickswitcher-input-background: var(
-    --channeltextarea-background
-  );
-
-  /* Text colors */
-  /* main Text colors */
-  --text-normal: rgb(var(--black));
-  --text-muted: rgb(var(--bright-black));
-  --text-link: #2775bd;
-  /* channels */
-  --channels-default: var(--text-muted);
-  --interactive-active: var(--accent-color);
-  --interactive-muted: #ccc;
-  /* headers */
-  --header-primary: var(--accent-color);
-  --header-secondary: #666;
-  /* Wait this is actually the stock value */
-
-  /* Controls */
-  --control-radio-dot: rgb(var(--magenta));
-  /* Radio button */
-  --control-checkbox-checked: rgb(var(--magenta));
-  /* Checked checkbox */
-  --control-slider-bar: rgb(var(--magenta));
-  /* Slider bar */
-  --control-button: rgb(var(--magenta));
-  /* Button */
-  --control-button-muted: rgb(var(--magenta));
-  /* Muted Button */
-  --control-button-yellow: rgb(var(--yellow));
-  /* Yellow Button */
-  --radio-group-dot-foreground: var(--control-radio-dot);
-  /* Radio button dot */
-
-  /* Misc */
-  --background-mentioned: #fa84190d;
-  --background-mentioned-hover: #fd891c14;
-}
-
-.tipTitle-3FYEQp,
-/* Loading splash screen \"DID YOU KNOW\" text */
-/* Loading splash screen \"Tweet Us\" and \"Server Status\" text & icons */
-.container-ZMc96U.themed-Hp1KC_ .anchor-1MIwyf:not([href=\"https:// support.discord.com\"]),
-*/ .container-ZMc96U.themed-Hp1KC_ .anchor-1MIwyf:not([href=\"https:// support.discord.com\"]) path,
-*/ .wordmark-2u86JB path
-
-/* Discord wordmark in top left */ {
-  color: var(--accent-color);
-}
-
-.title-338goq {
-  font-size: 12px;
-  line-height: 1.2em;
-}
-.title-x4dI75 {
-  margin: 4px;
-  padding: 0 8px;
-}
-
-/* Currently speaking bar */
-.userSettingsVoice-1_dzjw .sliderBar-2T41Pw.speaking-NGQNT9 {
-  background-color: rgb(var(--green));
-}
-
-.withTagAsButton-OsgQ9L,
-.withTagless-10ooWt {
-  min-width: 3em;
-  padding-left: 2px;
-}
-.wrapper-2PSQCG {
-  width: 2em;
-  height: 2rem;
-}
-.wrapper-2PSQCG {
-  width: 36px;
-  height: 36px;
-}
-
-/*  Fix announcement channel box with bettermessagebox */
-.wrapper-2SplAX {
-  margin: 0;
-  /*  default value, and 1px extra to make it fit with the userarea */
-  padding-bottom: 16px + 1px;
-  border-radius: 0;
-  background-color: var(--channeltextarea-background);
-}
-
-.avatar-1HDIsL .wrapper-3Un6-K {
-  /*! height: var(--pfp-size) !important; */
-  /*! align-content: center; */
-  /*! display: inline-flex; */
-  /*! width: var(--pfp-size ) !important; */
-  display: flex;
-  place-items: center;
-  /*! left: 18px; */
-  /*! top: 72px; */
-  /*! position: absolute; */
-  width: var(--pfp-size);
-  /*! height: 75%; */
-}
-.wrapper-3Un6-K.avatar-1EWyVD {
-  height: 32px !important;
-}
-/* Discord logo in top left */
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
-.wrapper-3kah-n:hover .childWrapper-1j_1ub {
-  color: #F4FAFF;
-  background-color: var(--accent-color);
-}
-
-.wrapper-NhbLHG {
-  height: 1.5em;
-}
-
-/* Notification Settings */
-.wrapper-SdcMKg {
-  border-color: rgb(var(--magenta));
-}
-
-.wrapper-SdcMKg.disabledSelected-1jqfsw {
-  border-color: rgb(var(--red));
-}
-
-.wrapper-z5ab_q {
-  height: 2.5rem;
-}
-
-.wrapper-z5ab_q {
-  width: 2em;
-  height: 2em;
-}
-/* File download button */
-.wrapperAudio-1Bzv_Z .metadataDownload-3IY84h path,
-.downloadButton-2HLFWN path {
-  fill: var(--text-link);
-}
-
-/* Invite to server */
-#guild-header-popout-invite-people.focused-3qFvc8 {
-  color: var(--text-normal);
-  background-color: rgb(var(--magenta));
-}
-
-#guild-header-popout-invite-people:not(.focused-3qFvc8) path {
-  fill: rgb(var(--magenta));
-}
-
-#guild-header-popout-invite-people:not(.focused-3qFvc8) {
-  color: rgb(var(--magenta));
-}
-
-/* Nitro boots */
-#guild-header-popout-premium-subscribe.focused-3qFvc8 {
-  color: var(--text-normal);
-  background-color: rgb(var(--bright-red));
-}
-
-#guild-header-popout-premium-subscribe:not(.focused-3qFvc8) path {
-  fill: rgb(var(--bright-red));
-}
-
-#status-picker-dnd .status-2DiCMd {
-  background-color: var(--rs-dnd-color) !important;
-}
-
-#status-picker-idle .status-2DiCMd {
-  background-color: var(--rs-idle-color) !important;
-}
-
-#status-picker-invisible .status-2DiCMd {
-  background-color: var(--rs-invisible-color) !important;
-}
-
-/* Fix the status picker popup not using the variables (discord pls fix) */
-#status-picker-online .status-2DiCMd {
-  background-color: var(--rs-online-color) !important;
-}
-
-.expandedFolderBackground-1kSAf6 {
- position:absolute;
- top:0;
- left: 0.4em;
- bottom:8px;
- border-radius:16px;
- -webkit-transition:background-color .15s ease-out;
- transition:background-color .15s ease-out;
- background-color:var(--background-secondary)
-}
-
-.wrapper-38slSD ul {
-	display: flex;
-	flex-direction: column;
-	place-content: space-evenly;
-}
-
-.privateChannelsHeaderContainer-1UWASm {
- display:-webkit-box;
- display:-ms-flexbox;
- display:flex;
- padding:18px 8px 4px 0.5em;
- height:40px
-}
-
-.userProfileInnerThemedNonPremium-2AJg-H {
- background:rgb(var(--black));
-}
-
-#channels {
-  padding-right: 0;
-}
-.children-1MGS9G {
-  display: none
-}
-
-.children-1MGS9G:hover {
-  display: block;
+/* direct messages text */
+.privateChannelsHeaderContainer_ddcec6 {
+  padding:0.25rem 0 0.25rem 1rem;
+  height: unset;
 }
 
