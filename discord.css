@@ -59,6 +59,7 @@
     * Color overrides
     */
     :root {
+
         --background-primary: rgb(var(--background)) !important;
         --background-secondary: rgb(var(--bright-black));
         --background-secondary-alt: rgb(var(--black));
@@ -69,6 +70,11 @@
         --bg-overlay: rgb(var(--black));
         --channeltextarea-background: rgb(var(--black));
         --text-normal: rgb(var(--foreground));
+        --background-modifier-selected: rgba(var(--black), 0.6);
+        --background-modifier-hover: rgba(var(--black), 0.6);
+    }
+    .container__11d72 {
+      --__header-bar-background: unset;
     }
 
     /* Shrink Avatars */
@@ -376,4 +382,5 @@ height: inherit;
     .pointerEvents__33f6a[mask="url(#svg-mask-status-idle)"] {
         fill: rgb(var(--yellow));
     }
+
 }
