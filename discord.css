@@ -4,29 +4,6 @@
  */
 :root {
   /*******************************\\
-	|            colors            |
-	\\*****************************  **/
-  /*  Lunar Witch colors */
-  --background: 1, 2, 6 !important; /* base00 */
-  --black: 30, 27, 48 !important; /* base01*/
-  --white: 128, 128, 130;
-  --red: 160, 69, 88;
-  --green: 111, 164, 126;
-  --yellow: 204, 183, 0;
-  --blue: 51, 71, 116;
-  --magenta: 169, 94, 109;
-  --cyan: 42, 151, 177;
-  --bright-black: 42, 38, 68;
-  --bright-red: 255, 77, 145;
-  --bright-green: 152, 216, 149;
-  --bright-yellow: 244, 183, 102;
-  --bright-blue: 68, 95, 155;
-  --bright-magenta: 245, 169, 184;
-  --bright-cyan: 91, 206, 250;
-  --bright-white: 191, 191, 192;
-  --foreground: 235, 246, 255;
-
-  /*******************************\\
 	|        VERY IMPORTANT         |
 	|    CUSTOMISATION VARIABLES    |
 	\\*******************************/
@@ -63,6 +40,25 @@
     * Color overrides
     */
 :root, .theme-dark, .profileColors__2e2f0 {
+  --background: 1, 2, 6 !important; /* base00 */
+  --black: 30, 27, 48 !important; /* base01*/
+  --white: 128, 128, 130;
+  --red: 160, 69, 88;
+  --green: 111, 164, 126;
+  --yellow: 204, 183, 0;
+  --blue: 51, 71, 116;
+  --magenta: 169, 94, 109;
+  --cyan: 42, 151, 177;
+  --bright-black: 42, 38, 68;
+  --bright-red: 255, 77, 145;
+  --bright-green: 152, 216, 149;
+  --bright-yellow: 244, 183, 102;
+  --bright-blue: 68, 95, 155;
+  --bright-magenta: 245, 169, 184;
+  --bright-cyan: 91, 206, 250;
+  --bright-white: 191, 191, 192;
+  --foreground: 235, 246, 255;
+	
   --__header-bar-background: rgb(var(--black)) !important;
   --background-modifier-hover: rgba(var(--black), 0.6);
   --background-modifier-selected: rgba(var(--black), 0.6);
