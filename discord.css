@@ -73,7 +73,7 @@
   --primary-800: rgb(var(--black));
   --text-normal: rgb(var(--foreground));
   --background-secondary-alt: rgb(var(--black)) !important;
-  --profile-body-background-color: rgb(var(--black));
+  --profile-body-background-color: rgb(var(--bright-black));
 	
 }
 }
