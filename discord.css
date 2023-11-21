@@ -407,3 +407,8 @@ button.button__4f306 {
 .listItemContents__7c940 {
   margin: 0.2em;
 }
+/* folder alignment */
+.wrapper_ed1dea {
+    position: relative;
+    width: calc(1.5em + var(--server-icon-size));
+}
