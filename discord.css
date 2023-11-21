@@ -62,7 +62,7 @@
 /*
     * Color overrides
     */
-:root, .theme-dark {
+:root, .theme-dark, .profileColors__2e2f0 {
   --__header-bar-background: rgb(var(--black)) !important;
   --background-modifier-hover: rgba(var(--black), 0.6);
   --background-modifier-selected: rgba(var(--black), 0.6);
@@ -77,6 +77,9 @@
   --primary-800: rgb(var(--black));
   --text-normal: rgb(var(--foreground));
   --background-secondary-alt: rgb(var(--black)) !important;
+  --profile-body-background-color: rgb(var(--black));
+	
+}
 }
 .container__11d72 {
   --__header-bar-background: unset;
