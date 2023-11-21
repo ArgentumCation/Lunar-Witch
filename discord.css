@@ -216,7 +216,11 @@ height: inherit;
   min-height: var(--top-bar-height);
   /*! box-sizing: content-box; */
   /*! align-items: center; */
+}ar
+.searchBar_e4ea2a {
+  height: var(--top-bar-height);
 }
+
 .primaryInfo_b44f9d {
   height: 100%;
 }
