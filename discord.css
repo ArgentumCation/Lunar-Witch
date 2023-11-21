@@ -76,6 +76,7 @@
   --interactive-normal: rgb(var(--foreground));
   --primary-800: rgb(var(--black));
   --text-normal: rgb(var(--foreground));
+  --background-secondary-alt: rgb(var(--bright-black));
 }
 .container__11d72 {
   --__header-bar-background: unset;
