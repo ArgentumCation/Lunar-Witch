@@ -62,7 +62,7 @@
 /*
     * Color overrides
     */
-:root {
+:root, .theme-dark {
   --__header-bar-background: rgb(var(--black)) !important;
   --background-modifier-hover: rgba(var(--black), 0.6);
   --background-modifier-selected: rgba(var(--black), 0.6);
