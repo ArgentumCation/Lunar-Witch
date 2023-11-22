@@ -7,7 +7,7 @@
 	|        VERY IMPORTANT         |
 	|    CUSTOMISATION VARIABLES    |
 	\\*******************************/
-  --accent-color: rgb(80, 120, 164);
+  --accent-color: rgb(var(--cyan));
   --accent: (var(--accent-color));
   --accent-contrast: rgb(var(--foreground));
   --mention-color: rgb(var(--magenta));
