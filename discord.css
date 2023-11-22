@@ -16,8 +16,7 @@
     "JetBrainsMono Nerd Font", "JetBrainsMonoNL Nerd Font", "JetBrains Mono",
     "Intel One Mono", "Monocraft Nerd Font", "Monocraft",
     "CaskaydiaCove Nerd Font", "Cascadia Code", "Symbols Nerd Font", monospace;
-  --font-display: "Atkinson Hyperlegible", "Bell Centennial Std Name and Number",
-    "Inclusive Sans", "gg sans", "Helvetica Neue", Verdana, sans-serif;
+  --font-display: "Monaspace Krypton","Atkinson Hyperlegible", "Bell Centennial Std Name and Number", "Inclusive Sans", "gg sans", "Helvetica Neue", Verdana, sans-serif;
   --font-primary: "Atkinson Hyperlegible", "Bell Centennial Std Name and Number",
     "Inclusive Sans", "gg sans", sans-serif;
   --pfp-size: 2rem;
@@ -156,7 +155,7 @@ height: inherit;
 }
 /* shrink server bar*/
 .listItem_fa7b36 {
-  width: calc(var(--server-icon-size) + 1.25em);
+  width: calc(var(--server-icon-size) + 1em);
 }
 
 /* Shrink messages */
@@ -186,6 +185,7 @@ height: inherit;
   max-height: var(--top-bar-height);
   padding: 0;
   margin: auto;
+  align-items: center;
 }
 
 .cozyMessage-1DWF9U.groupStart-3Mlgv1 {
