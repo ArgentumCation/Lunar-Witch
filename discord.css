@@ -75,6 +75,7 @@
   --background-secondary-alt: rgb(var(--black)) !important;
   --profile-body-background-color: rgb(var(--bright-black)) !important;
   --interactive-active: var(--accent-color) !important;
+	--status-danger: rgb(var(--red)) !important;
 	
 }
 }
@@ -324,7 +325,7 @@ button.button__4f306 {
 }
 /* highlight badge */
 .numberBadge__50328 {
-  border: 2px dashed white;
+/*   border: 2px dashed white; */
 }
 
 /* move badge */
