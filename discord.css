@@ -7,7 +7,7 @@
 	|        VERY IMPORTANT         |
 	|    CUSTOMISATION VARIABLES    |
 	\\*******************************/
-  --accent-color: rgb(var(--cyan));
+  --accent-color: rgb(11, 83, 147);
   --accent: (var(--accent-color));
   --accent-contrast: rgb(var(--foreground));
   --mention-color: rgb(var(--magenta));
@@ -74,7 +74,7 @@
   --text-normal: rgb(var(--foreground));
   --background-secondary-alt: rgb(var(--black)) !important;
   --profile-body-background-color: rgb(var(--bright-black)) !important;
-  --interactive-active:rgb(var(--accent-color)) !important;
+  --interactive-active: var(--accent-color) !important;
 	
 }
 }
