@@ -74,7 +74,7 @@
   --text-normal: rgb(var(--foreground));
   --background-secondary-alt: rgb(var(--black)) !important;
   --profile-body-background-color: rgb(var(--bright-black)) !important;
-  --interactive-active:rgb(var(--accent-color));
+  --interactive-active:rgb(var(--accent-color)) !important;
 	
 }
 }
