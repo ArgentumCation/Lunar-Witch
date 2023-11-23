@@ -157,7 +157,9 @@ height: inherit;
 .listItem_fa7b36 {
   width: calc(var(--server-icon-size) + 1em);
 }
-
+.guilds__2b93a {
+    width: calc(1.25em +var(--server-icon-size));
+}
 /* Shrink messages */
 .cozy_f5c119.wrapper__09ecc {
   padding-top: 0;
