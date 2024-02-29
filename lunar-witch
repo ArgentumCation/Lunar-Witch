@@ -1,6 +1,6 @@
 # Colors
 set $fg #EBF6FF
-set $bg #2a2644
+set $bg #504573
 set $inactive #1E1B30
 set $urgent #A04558
 # class                 border    backgr.   text indicator child_border
