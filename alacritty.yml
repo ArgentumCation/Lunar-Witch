@@ -1,0 +1,34 @@
+# Colors (Lunar Witch)
+colors:
+  # Default colors
+  primary:
+    background: "#010206"
+    foreground: "#EBF6FF"
+    dim_foreground: "#BFBFC0"
+    bright_foreground: "#F0F2FF"
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  footer_bar:
+    background: "#0B5393"
+    foreground: "#EBF6FF"
+  # Normal colors
+  normal:
+    black: "#1E1B30"
+    red: "#A04558"
+    green: "#6FA47E"
+    yellow: "#CCB700"
+    blue: "#334773"
+    magenta: "#a34a78"
+    cyan: "#2A98B1"
+    white: "#808082"
+  # Bright colors
+  bright:
+    black: "#504573"
+    red: "#f5a9b8"
+    green: "#98db95"
+    yellow: "#ffe70a"
+    blue: "#445f9b"
+    magenta: "#ee5e95"
+    cyan: "#5bcefa"
+    white: "#bfbfc0"
