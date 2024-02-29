@@ -3,10 +3,10 @@ local M = {}
 M.base_30 = {
   black = "#010206",-- theme bg
   darker_black = "#000000",
-  black2 = "#2A2644", -- base02
+  black2 = "#504573", -- base02
 
   one_bg = "#1E1B30", -- base01
-  one_bg2 = "#2A2644", -- base02
+  one_bg2 = "#504573", -- base02
   one_bg3 = "#51545A", -- base03
 
   light_grey = "#BFBFC0", -- base05
@@ -14,15 +14,15 @@ M.base_30 = {
   grey = "#5078A4", -- accent
   grey_fg2 = "#0B5393", -- light accent, used for line numbers
 
-  line = "#2A2644", -- base02
+  line = "#504573", -- base02
 
   baby_pink = "#F385A6", -- pink
   nord_blue = "#0B5393", -- accent
   orange = "#F4B766",
 
   statusline_bg = "#1E1B30", -- base01
-  lightbg = "#2a2644", -- base02
-  lightbg2 = "#2a2644", -- base02
+  lightbg = "#504573", -- base02
+  lightbg2 = "#504573", -- base02
 
   folder_bg = "#445F9B", -- ansi-blue
   pmenu_bg = "#445F9B", -- ansi-blue
@@ -47,7 +47,7 @@ M.base_30 = {
 M.base_16 = {
   base00 = "#010206",-- Default bg
   base01 = "#1E1B30",-- Lighter bg (status bar, line number, folding mks)
-  base02 = "#2A2644",-- Selection bg,
+  base02 = "#504573",-- Selection bg,
   base03 = "#51545A",-- Comments, invisibles, line hl, ansi-bright-black
   base04 = "#808082",-- Dark fg (status bars), ansi-white
   base05 = "#BFBFC0",-- Default fg (caret, delimiters, Operators), ansi-bright-white
