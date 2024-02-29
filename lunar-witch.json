@@ -5,7 +5,7 @@
     "background": "#010206",
     "black": "#1E1B30",
     "blue": "#334774",
-    "brightBlack": "#2A2644",
+    "brightBlack": "#504573",
     "brightBlue": "#445F9B",
     "brightCyan": "#5BCEFA",
     "brightGreen": "#98DB95",
@@ -20,7 +20,7 @@
     "name": "Lunar Witch",
     "purple": "#A34A78",
     "red": "#A04558",
-    "selectionBackground": "#2A2644",
+    "selectionBackground": "#504573",
     "white": "#808082",
     "yellow": "#CCB700"
 },
