@@ -1,0 +1,33 @@
+# Colors
+set $fg #EBF6FF
+set $bg #504573
+set $inactive #1E1B30
+set $urgent #A04558
+# class                 border    backgr.   text indicator child_border
+client.focused          $bg       $bg       $fg  $bg       $bg
+client.focused_inactive $inactive $inactive $fg  $bg       $bg
+client.unfocused        $inactive $inactive $fg  $bg       $bg
+client.urgent           $urgent   $urgent   $fg  $bg       $bg
+client.placeholder      $bg       $bg       $fg  $bg       $bg
+client.background       $bg
+
+font pango:Atkinson Hyperlegible bold 9
+
+bar {
+  status_command i3blocks -c ~/.config/sway/i3blocks.conf
+    font pango:Monaspace Neon, CommitMono Nerd Font, FontAwesome 9
+#mode hide
+    colors {
+      background $inactive 
+        statusline $fg
+        separator  $fg
+
+        focused_workspace  $bg       $bg       $fg
+        active_workspace   $inactive $inactive $fg
+        inactive_workspace $inactive $inactive $fg
+        urgent_workspace   $urgent $urgent $fg
+        binding_mode       $urgent $urgent $fg
+
+    }        
+
+}
