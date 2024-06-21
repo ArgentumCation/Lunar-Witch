@@ -1,0 +1,31 @@
+base00: '010206'
+base01: '1e1b30'
+base02: '504573'
+base03: '746e95'
+base04: '9a9ab8'
+base05: 'c1c7db'
+base06: 'ebf6ff'
+base07: 'fbfbff'
+base08: 'a04558'
+base09: 'eaa950'
+base0A: 'c1b254'
+base0B: '76aa73'
+base0C: '2a97b1'
+base0D: '5bcefa'
+base0E: 'ee5e95'
+base0F: 'a34a78'
+
+red: 'a04558'
+yellow: 'ad9d3d'
+green: '487f58'
+blue: '334773'
+bright_blue: '445f9b'
+
+pink: 'f3709a'
+orange: 'eaa950'
+
+accent: '1a538d'
+bright_accent: '5078a4'
+
+scheme: "Lunar Witch"
+author: "ArgentumCation"
