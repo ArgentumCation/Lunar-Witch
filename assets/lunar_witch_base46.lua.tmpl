@@ -1,0 +1,66 @@
+local M = {}
+
+M.base_30 = {
+  black = "#{{ base00 }}",          -- theme bg
+  darker_black = "#000000",
+  black2 = "#{{ base02 }}",         -- base02
+
+  one_bg = "#{{ base01 }}",         -- base01
+  one_bg2 = "#{{ base02 }}",        -- base02
+  one_bg3 = "#{{ base03 }}",        -- base03
+
+  light_grey = "#{{ base05 }}",     -- base05
+  grey_fg = "#{{ base04 }}",        -- base04, used for comments
+  grey = "#{{ accent }}",           -- accent
+  grey_fg2 = "#{{ bright_accent }}", -- light accent, used for line numbers
+
+  line = "#{{ base02 }}",           -- base02
+
+  baby_pink = "#{{ pink }}",        -- pink
+  nord_blue = "#{{ accent }}",      -- accent
+  orange = "#{{ orange }}",
+
+  statusline_bg = "#{{ base01 }}", -- base01
+  lightbg = "#{{ base02 }}",      -- base02
+  lightbg2 = "#{{ base02 }}",     -- base02
+
+  folder_bg = "#{{ blue }}",      -- ansi-blue
+  pmenu_bg = "#{{ blue }}",       -- ansi-blue
+
+  red = "#{{ red }}",
+  green = "#{{  green }}",
+  yellow = "#{{ yellow }}",
+  dark_purple = "#{{ base0F }}",  --ansi-magenta
+  teal = "#{{ base0C }}",         -- ansi-cyan
+
+  pink = "#{{ base08 }}",         --ansi-bright-red
+  vibrant_green = "#{{ base0B }}", --ansi-bright-green
+  sun = "#{{ base0A }}",          -- ansi-bright-yellow
+  blue = "#{{ bright_blue }}",    --ansi-bright-blue
+  purple = "#{{ base0E }}",       --ansi-bright-magenta
+  cyan = "#{{ base0D }}",         --ansi-bright-cyan
+
+  white = "#{{ base06 }}",        -- actually fg
+}
+
+M.base_16 = {
+  base00 = "#{{ base00 }}", -- Default bg
+  base01 = "#{{ base01 }}", -- Lighter bg (status bar, line number, folding mks)
+  base02 = "#{{ base02 }}", -- Selection bg,
+  base03 = "#{{ base03 }}", -- Comments, invisibles, line hl, ansi-bright-black
+  base04 = "#{{ base04 }}", -- Dark fg (status bars), ansi-white
+  base05 = "#{{ base05 }}", -- Default fg (caret, delimiters, Operators), ansi-bright-white
+  base06 = "#{{ base06 }}", -- Light fg (not often used), fg
+  base07 = "#{{ base07 }}", -- Light bg (not often used)
+  base08 = "#{{ base08 }}", -- Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted, ansi-bright-red
+  base09 = "#{{ base09 }}", -- Integers, Boolean, Constants, XML Attributes, Markup Link Url, orange
+  base0A = "#{{ base0A }}", -- Classes, Markup Bold, Search Text Background, ansi-yellow
+  base0B = "#{{ base0B }}", -- Strings, Inherited Class, Markup Code, Diff Inserted, ansi-green
+  base0C = "#{{ base0C }}", -- Support, regex, escape chars, ansi-cyan
+  base0D = "#{{ base0D }}", -- Function, methods, headings, ansi-bright-cyan
+  base0E = "#{{ base0E }}", -- Keywords, ansi-bright-magenta
+  base0F = "#{{ base0F }}", -- Deprecated, open/close embedded tags, ansi-magenta
+}
+M.type = "dark"
+
+return M
