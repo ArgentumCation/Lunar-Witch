@@ -1,4 +1,4 @@
-<svg width="210mm" height="210mm" version="1.1" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
     <rect x="27.59" y="17.22" width="22.434" height="24.093" fill="#1e1b30" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="38.807182" y="27.736858" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="38.807182" y="27.736858" text-align="center">Base01</tspan><tspan x="38.807182" y="33.028519" text-align="center">#1e1b30</tspan></text>
     <rect x="80.395" y="17.22" width="22.434" height="24.093" fill="#746e95" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
@@ -16,9 +16,9 @@
     <rect x="27.59" y="45.148" width="22.434" height="24.093" fill="#eaa950" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="38.807182" y="55.801239" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:28.5409;white-space:pre" xml:space="preserve"><tspan x="38.807182" y="55.801239">Base09
 </tspan><tspan x="38.807182" y="61.092864">#eaa950</tspan></text>
-    <rect x="80.395" y="45.148" width="22.434" height="24.093" fill="#76aa73" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
+    <rect x="80.395" y="45.148" width="22.434" height="24.093" fill="#a0dc9b" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="91.61171" y="55.801239" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:28.7215;white-space:pre" xml:space="preserve"><tspan x="91.61171" y="55.801239">Base0B
-</tspan><tspan x="91.61171" y="61.092864">#76aa73</tspan></text>
+</tspan><tspan x="91.61171" y="61.092864">#a0dc9b</tspan></text>
     <rect x="53.993" y="45.148" width="22.434" height="24.093" fill="#c1b254" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="65.20945" y="55.801239" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:32.8829;white-space:pre" xml:space="preserve"><tspan x="65.20945" y="55.801239">Base0A
 </tspan><tspan x="65.20945" y="61.092864">#c1b254</tspan></text>
@@ -34,9 +34,9 @@
     <rect x="186" y="45.148" width="22.434" height="24.093" fill="#a34a78" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="197.54395" y="55.801239" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:50.7854;white-space:pre" xml:space="preserve"><tspan x="197.54395" y="55.801239">Base0F
 </tspan><tspan x="197.54395" y="61.092864">#a34a78</tspan></text>
-    <rect x="1.1882" y="45.148" width="22.434" height="24.093" fill="#f5a9b8" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
+    <rect x="1.1882" y="45.148" width="22.434" height="24.093" fill="#ed8096" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="12.404916" y="55.801239" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:34.7202;white-space:pre" xml:space="preserve"><tspan x="12.404916" y="55.801239">Base08
-</tspan><tspan x="12.404916" y="61.092864">#f5a9b8</tspan></text>
+</tspan><tspan x="12.404916" y="61.092864">#ed8096</tspan></text>
     <rect x="1.1882" y="17.22" width="22.434" height="24.093" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="12.404916" y="27.736858" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="12.404917" y="27.736858" text-align="center">Base00</tspan><tspan x="12.404917" y="33.028519" text-align="center">#010206</tspan></text>
     <rect x="27.59" y="73.075" width="22.434" height="24.093" fill="#a04558" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
@@ -44,9 +44,9 @@
     <rect x="80.395" y="73.075" width="22.434" height="24.093" fill="#ad9d3d" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="91.61171" y="83.547935" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:33.3863;white-space:pre" xml:space="preserve"><tspan x="91.61171" y="83.547935">Yellow
 </tspan><tspan x="91.61171" y="88.839564">#ad9d3d</tspan></text>
-    <rect x="53.993" y="73.075" width="22.434" height="24.093" fill="#487f58" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
+    <rect x="53.993" y="73.075" width="22.434" height="24.093" fill="#76aa73" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="65.20945" y="83.547935" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:34.6639;white-space:pre" xml:space="preserve"><tspan x="65.20945" y="83.547935">Green
-</tspan><tspan x="65.20945" y="88.839564">#487f58</tspan></text>
+</tspan><tspan x="65.20945" y="88.839564">#76aa73</tspan></text>
     <rect x="106.8" y="73.075" width="22.434" height="24.093" fill="#334773" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="118.92744" y="83.547935" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="118.92744" y="83.547935" text-align="center">Blue</tspan><tspan x="118.92744" y="88.8396" text-align="center">#334773</tspan></text>
     <rect x="133.2" y="73.075" width="22.434" height="24.093" fill="#a34a78" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
@@ -55,16 +55,16 @@
     <text x="171.73196" y="83.547935" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="171.73196" y="83.547935" text-align="center">Cyan</tspan><tspan x="171.73196" y="88.8396" text-align="center">#2a97b1</tspan></text>
     <rect x="186" y="73.075" width="22.434" height="24.093" fill="#9a9ab8" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="198.13423" y="83.547935" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="198.13423" y="83.547935" text-align="center">White</tspan><tspan x="198.13423" y="88.8396" text-align="center">#9a9ab8</tspan></text>
-    <rect x="27.59" y="101" width="22.434" height="24.093" fill="#f5a9b8" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
+    <rect x="27.59" y="101" width="22.434" height="24.093" fill="#ed8096" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text transform="translate(-.091567 -2.5945)" x="38.807182" y="111.61232" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:34.4785;white-space:pre" xml:space="preserve"><tspan x="38.807182" y="111.61232">Bright
 </tspan><tspan x="38.807182" y="116.90395">Red
 </tspan><tspan x="38.807182" y="122.19557">#c1c7db</tspan></text>
     <rect x="80.395" y="101" width="22.434" height="24.093" fill="#c1b254" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="91.61171" y="109.01784" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="91.61171" y="109.01784">Bright</tspan><tspan x="91.61171" y="114.30946">Yellow</tspan><tspan x="91.61171" y="119.60109">#c1b254</tspan></text>
-    <rect x="53.993" y="101" width="22.434" height="24.093" fill="#76aa73" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
+    <rect x="53.993" y="101" width="22.434" height="24.093" fill="#a0dc9b" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text transform="translate(0 -2.5945)" x="65.20945" y="111.61232" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" style="inline-size:38.0789;white-space:pre" xml:space="preserve"><tspan x="65.20945" y="111.61232">Bright
 </tspan><tspan x="65.20945" y="116.90395">Green
-</tspan><tspan x="65.20945" y="122.19557">#76aa73</tspan></text>
+</tspan><tspan x="65.20945" y="122.19557">#a0dc9b</tspan></text>
     <rect x="106.8" y="101" width="22.434" height="24.093" fill="#445f9b" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
     <text x="118.01701" y="108.86385" fill="#ebf6ff" font-family="Monospace" font-size="4.2333px" stroke-width=".481" text-align="center" text-anchor="middle" xml:space="preserve"><tspan x="118.01701" y="108.86385">Bright</tspan><tspan x="118.01701" y="114.15548">Blue</tspan><tspan x="118.01701" y="119.44711">#445f9b</tspan></text>
     <rect x="133.2" y="101" width="22.434" height="24.093" fill="#ee5e95" style="font-variation-settings:'wght' 400;paint-order:markers fill stroke"/>
