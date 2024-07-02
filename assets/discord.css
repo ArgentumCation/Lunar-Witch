@@ -1,0 +1,31 @@
+:root {
+  --bg-overlay-3: #1e1b30;
+  --bg-overlay-chat: #010206;
+  --interactive-active: #5bcefa;
+  --background-secondary:#1e1b30;
+  --background-tertiary: #010206;
+  --server-icon-size: 2.5em;
+  --custom-folder-item-guild-icon-size: var(--server-icon-size);
+}
+a[class^="link"] {
+/*   border: 1px solid green; */
+  padding: 0.05vh;
+ 
+}
+div[class^="pill"]{
+  height: var(--server-icon-size);
+}
+div[class^="blobContainer"] > div[class^="wrapper"] {
+  height: var(--server-icon-size);
+  width: var(--server-icon-size);
+}
+div[class^="blobContainer"] svg[class^="svg"] {
+ width: var(--server-icon-size);
+  height: var(--server-icon-size);
+}
+div[class^="folder"] {
+  margin: auto;
+}
+.expandedFolderBackground_bc7085 {
+  margin: auto;
+}
