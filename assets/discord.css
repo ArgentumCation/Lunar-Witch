@@ -1,31 +1,90 @@
-:root {
+:root, .theme-dark {
   --bg-overlay-3: #1e1b30;
   --bg-overlay-chat: #010206;
   --interactive-active: #5bcefa;
+  --background-primary: #010206;
   --background-secondary:#1e1b30;
   --background-tertiary: #010206;
-  --server-icon-size: 2.5em;
+  --background-secondary-alt: #504573;
+  --input-background: #504573;
+  --bg-surface-overlay: #1e1b30;
+  --text-normal: #ebf6ff;
+  --status-danger: #ee5e95;
+  --channels-default: #9a9ab8;
+  --interactive-normal: #c1c7db;
+  --brand-500: #504573;
+   --font-primary: "Atkinson Hyperlegible";
+  --font-display: "Atkinson Hyperlegible";
+  --server-icon-size: 2em;
+  --sidebar-width: 15ch;
+  --custom-list-items-list-item-width: calc(1em + var(--server-icon-size));
   --custom-folder-item-guild-icon-size: var(--server-icon-size);
 }
 a[class^="link"] {
-/*   border: 1px solid green; */
+
   padding: 0.05vh;
  
 }
 div[class^="pill"]{
   height: var(--server-icon-size);
 }
-div[class^="blobContainer"] > div[class^="wrapper"] {
-  height: var(--server-icon-size);
-  width: var(--server-icon-size);
-}
-div[class^="blobContainer"] svg[class^="svg"] {
- width: var(--server-icon-size);
-  height: var(--server-icon-size);
-}
 div[class^="folder"] {
   margin: auto;
 }
-.expandedFolderBackground_bc7085 {
-  margin: auto;
+div[class^="blobContainer"] > div[class^="wrapper"],
+div[class^="blobContainer"] svg[class^="svg"],
+div[class^="listItemWrapper"] svg,
+div[class^="listItemWrapper"], div[class^="lowerBadge"]{
+    width: var(--server-icon-size);
+    height: var(--server-icon-size);
+}
+div[class^="lowerBadge"]{
+    transform: translate(calc(var(--server-icon-size) / 16),calc(var(--server-icon-size) / 16)) !important;
+}
+
+nav[aria-label="Servers sidebar"]{
+    width: min-content;
+}
+div[class^="unreadMentionsIndicatorTop"]{
+    width: var(--server-icon-size);
+}
+
+div[class^="sidebar"]{
+    width: var(--sidebar-width);
+}
+div[class^="sidebar"]:hover{
+    width: min-content;
+}
+
+div[class^="panelSubtextContainer"]{
+    max-width: var(--sidebar-width);
+}
+div[class^="avatarWrapper"]{
+    min-width: 0em;
+    width: min-content;
+
+}
+
+
+div[class^="avatar"] div[class^="wrapper"],
+div[class^="avatar"] div[class^="wrapper"] svg{
+    width: 2em !important;
+    height: 2em !important;
+}
+div[class^="memberInner"]{
+    height: min-content;
+}
+
+div[class^="side"] div[class^="item"]{
+    height: min-content;
+    padding: 0;
+}
+
+div[class^="side"] div[class^="header"]{
+    
+    padding-left: 0;
+}
+
+nav[class^="sidebar"]{
+    padding: 1em;
 }
