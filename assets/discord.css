@@ -88,3 +88,18 @@ div[class^="side"] div[class^="header"]{
 nav[class^="sidebar"]{
     padding: 1em;
 }
+
+.side_a0 .item_a0 {
+    padding: 0;
+    height: min-content;
+}
+
+div[class^="contentColumn"] {
+    max-width: min-content;
+    min-width: unset;
+}
+
+div[class^="layout"]{
+    height: var(--pfp-size);
+    margin:  0 2px;
+}
