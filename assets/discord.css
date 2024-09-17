@@ -66,15 +66,17 @@ div[class^="panelSubtextContainer"]{
 div[class^="avatarWrapper"]{
     min-width: 0em;
     width: min-content;
-
 }
 
+div[class^="progressBarContainer_"] {
+  width: calc(100% - 2em);
+}
 
-div[class^="avatar"] div[class^="wrapper"],
+/*div[class^="avatar"] div[class^="wrapper"],
 div[class^="avatar"] div[class^="wrapper"] svg{
     width: 2em !important;
     height: 2em !important;
-}
+}*/
 div[class^="memberInner"]{
     height: min-content;
 }
@@ -106,4 +108,8 @@ div[class^="contentColumn"] {
 div[class^="layout"]{
     height: var(--pfp-size);
     margin:  0 2px;
+}
+
+div[class^="name_"] {
+  line-height: 1.25em;
 }
