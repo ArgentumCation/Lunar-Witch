@@ -13,8 +13,8 @@
   --channels-default: #9a9ab8;
   --interactive-normal: #c1c7db;
   --brand-500: #504573;
-   --font-primary: "Atkinson Hyperlegible";
-  --font-display: "Atkinson Hyperlegible";
+   --font-primary: "FOT-UDKakugo_Large Pr6N M","Atkinson Hyperlegible";
+  --font-display: "FOT-UDKakugo_Large Pr6N DB","Atkinson Hyperlegible";
   --server-icon-size: 2em;
   --sidebar-width: 15ch;
   --custom-list-items-list-item-width: calc(1em + var(--server-icon-size));
@@ -44,6 +44,10 @@ div[class^="lowerBadge"]{
 
 nav[aria-label="Servers sidebar"]{
     width: min-content;
+}
+
+div[class^="footer_"]{
+  width: unset;
 }
 div[class^="unreadMentionsIndicatorTop"]{
     width: var(--server-icon-size);
