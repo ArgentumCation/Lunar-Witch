@@ -1,115 +1,34 @@
-:root, .theme-dark {
-  --bg-overlay-3: #1e1b30;
-  --bg-overlay-chat: #010206;
-  --interactive-active: #5bcefa;
-  --background-primary: #010206;
-  --background-secondary:#1e1b30;
-  --background-tertiary: #010206;
-  --background-secondary-alt: #504573;
-  --input-background: #504573;
-  --bg-surface-overlay: #1e1b30;
-  --text-normal: #ebf6ff;
-  --status-danger: #ee5e95;
-  --channels-default: #9a9ab8;
-  --interactive-normal: #c1c7db;
-  --brand-500: #504573;
-   --font-primary: "FOT-UDKakugo_Large Pr6N M","Atkinson Hyperlegible";
-  --font-display: "FOT-UDKakugo_Large Pr6N DB","Atkinson Hyperlegible";
-  --server-icon-size: 2em;
-  --sidebar-width: 15ch;
-  --custom-list-items-list-item-width: calc(1em + var(--server-icon-size));
-  --custom-folder-item-guild-icon-size: var(--server-icon-size);
-}
-a[class^="link"] {
-
-  padding: 0.05vh;
- 
-}
-div[class^="pill"]{
-  height: var(--server-icon-size);
-}
-div[class^="folder"] {
-  margin: auto;
-}
-div[class^="blobContainer"] > div[class^="wrapper"],
-div[class^="blobContainer"] svg[class^="svg"],
-div[class^="listItemWrapper"] svg,
-div[class^="listItemWrapper"], div[class^="lowerBadge"]{
-    width: var(--server-icon-size);
-    height: var(--server-icon-size);
-}
-div[class^="lowerBadge"]{
-    transform: translate(calc(var(--server-icon-size) / 16),calc(var(--server-icon-size) / 16)) !important;
+.density-compact {
+    --space-xxs: var(--space-0);
+    --space-xs: var(--space-4);
+    --space-sm: var(--space-6);
+    --space-md: var(--space-10);
+    --space-lg: var(--space-12);
+    --space-xl: var(--space-16);
+    --space-xxl: var(--space-20);
 }
 
-nav[aria-label="Servers sidebar"]{
-    width: min-content;
-}
-
-div[class^="footer_"]{
-  width: unset;
-}
-div[class^="unreadMentionsIndicatorTop"]{
-    width: var(--server-icon-size);
-}
-
-div[class^="sidebar"]{
-    width: var(--sidebar-width);
-}
-div[class^="sidebar"]:hover{
-    width: min-content;
-}
-
-div[class^="panelSubtextContainer"]{
-    max-width: var(--sidebar-width);
-}
-div[class^="avatarWrapper"]{
-    min-width: 0em;
-    width: min-content;
-}
-
-div[class^="progressBarContainer_"] {
-  width: calc(100% - 2em);
-}
-
-/*div[class^="avatar"] div[class^="wrapper"],
-div[class^="avatar"] div[class^="wrapper"] svg{
-    width: 2em !important;
-    height: 2em !important;
-}*/
-div[class^="memberInner"]{
-    height: min-content;
-}
-
-div[class^="side"] div[class^="item"]{
-    height: min-content;
-    padding: 0;
-}
-
-div[class^="side"] div[class^="header"]{
+:root {
+    --chat-avatar-size: 36px;
+    --chat-markup-line-height: 1.25em;
+    /* font-size: 18px !important;  */
+    --font-primary: "Atkinson Hyperlegible", "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     
-    padding-left: 0;
 }
 
-nav[class^="sidebar"]{
-    padding: 1em;
+div[class*="groupStart__"] {
+--custom-group-spacing-start: 0.75rem !important;
 }
 
-.side_a0 .item_a0 {
-    padding: 0;
-    height: min-content;
+.visual-refresh {
+    --brand-500:  #74689f;
 }
 
-div[class^="contentColumn"] {
-    max-width: min-content;
-    min-width: unset;
+.visual-refresh.theme-midnight {
+    --background-base-lowest: #1e1b30;
 }
 
-div[class^="layout"]{
-    height: var(--pfp-size);
-    margin:  0 2px;
-}
-
-div[class^="name_"] {
-  line-height: 1.25em;
+.theme-midnight {
+    ---status-danger: #a04558;
+    --status-danger-background: #ed8096;
 }
