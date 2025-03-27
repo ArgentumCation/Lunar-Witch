@@ -13,6 +13,7 @@
     --chat-markup-line-height: 1.25em;
     /* font-size: 18px !important;  */
     --font-primary: "Atkinson Hyperlegible", "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --space-8: 6px;
     
 }
 
@@ -31,4 +32,7 @@ div[class*="groupStart__"] {
 .theme-midnight {
     ---status-danger: #a04558;
     --status-danger-background: #ed8096;
+}
+.visual-refresh.density-compact div[class*="layout__"] {
+    height: 32px;
 }
